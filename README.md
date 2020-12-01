@@ -1,4 +1,4 @@
-# Gym-Membership-Laravel
+# CSZ Membership-Laravel
 
 ## Installation
 
@@ -22,7 +22,7 @@ password: gym123
 
 ## Scenario
 
-A new gym has opened that needs a system for taking new memberships. Listed are the requirements from the product owner.
+A CSZ needs a system for taking new memberships. Listed are the requirements from the product owner.
 
 An admin must be able to log into a portal and add a new member
 
