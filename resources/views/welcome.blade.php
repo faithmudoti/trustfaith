@@ -174,8 +174,8 @@
 										<img src="img-assets/icon1.png" class="img-responsive icon-img" alt title="iconbox">
 									</div>
 									<div class="mm-iconbox__content-wrapper txt-black">
-											<h3>Stunning Page Builder	</h3>
-											<p class="mm-iconbox__desc">Setup pages and content like a PRO. Coding is not required and a handy documentation is included.</p>
+											<h3>Our Vision	</h3>
+											<p class="mm-iconbox__desc">To be the trusted industry body, anchored on professional knowledge driving the ICT ecosystem in Zimbabwe</p>
 									</div>
 								</div>
 							</div>
@@ -187,8 +187,8 @@
 										<img src="img-assets/icon4.png" class="img-responsive icon-img" alt title="iconbox">
 									</div>
 									<div class="mm-iconbox__content-wrapper txt-black">
-											<h3>Mature Project</h3>
-											<p class="mm-iconbox__desc">In time, gathering awesome feedback from our loyal customers, Kallyas became a mature, stable and future-proof project.</p>
+											<h3>Our Mission</h3>
+											<p class="mm-iconbox__desc">To champion the development of the ICT industry in Zimbabwe by establishing beneficial relationships and providing independent professional counsel for the benefit of members, government, industry and society at large.</p>
 									</div>
 								</div>
 							</div>
@@ -311,7 +311,7 @@
 								<h5 class="title--small txt-center txt-light">Get in Touch With Us.</h5>
 								<h6 class="subtitle txt-center txt-light">
 									Whether you’re interested in working with us or for us, we’re always happy to chat.<br>
-									<br>For Inquiries:<span style="color:#c89d28;font-family: georgia;font-size: 22px; font-weight: 100;">&nbsp;(500) 123-0800</span>. </h6>
+									<br>For Inquiries:<span style="color:#c89d28;font-family: georgia;font-size: 22px; font-weight: 100;">&nbsp;+263 242 250489/90</span>. </h6>
 
 							</div>
 							<div class="txt-center pgt-10">
@@ -342,92 +342,27 @@
 								</h5>
 								<ul class="vertical-ul">
 									<li>
-										<a href="#"><span>Our Blog</span></a>
+										<a href="https://www.csz.org.zw/"><span>Our Blog</span></a>
 									</li>
 									<li>
-										<a href="#"><span>Instagram</span></a>
+										<a href="https://www.instagram.com/p/CGZo3PyMMh4/"><span>Instagram</span></a>
 									</li>
 									<li>
-										<a href="#"><span>Snapchat</span></a>
+										<a href="https://www.facebook.com/ComputerSocietyofZimbabwe/"><span>Facebook</span></a>
 									</li>
 									<li>
-										<a href="#"><span>Facebook</span></a>
-									</li>
-									<li>
-										<a href="#"><span>Twitter</span></a>
-									</li>
-									<li>
-										<a href="#"><span>Dribbble</span></a>
+										<a href="https://twitter.com/compsocietyzim?lang=en"><span>Twitter</span></a>
 									</li>
 								</ul>
 
 							</div>
 						</div>
-						<div class=" col-md-2 col-sm-2">
-							<div class="vertical-list">
-								<h5 class="txt-light footer-menu-title">
-									MEMBER
-								</h5>
-								<ul class="vertical-ul">
-									<li>
-										<a href="#"><span>Home</span></a>
-									</li>
-									<li>
-										<a href="#"><span>About</span></a>
-									</li>
-									<li>
-										<a href="#"><span>Pricing</span></a>
-									</li>
-									<li>
-										<a href="#"><span>BLog</span></a>
-									</li>
-									<li>
-										<a href="#"><span>Services</span></a>
-									</li>
-									<li>
-										<a href="#"><span>Shop</span></a>
-									</li>
-								</ul>
-
-							</div>
-						</div>
-						<div class=" col-md-2 col-sm-2">
-							<div class="vertical-list">
-								<h5 class="txt-light footer-menu-title">
-									FOLLOW
-								</h5>
-								<ul class="vertical-ul">
-									<li>
-										<a href="#"><span>Account</span></a>
-									</li>
-									<li>
-										<a href="#"><span>Billing</span></a>
-									</li>
-									<li>
-										<a href="#"><span>Membership</span></a>
-									</li>
-									<li>
-										<a href="#"><span>Receipt</span></a>
-									</li>
-									<li>
-										<a href="#"><span>Invoice</span></a>
-									</li>
-
-								</ul>
-
-							</div>
-						</div>
-
-
 					</div>
 					<div class="row">
 						<div class=" col-md-12 col-sm-12">
-							<p class="copyright">© 2017
-								<a href="https://kallyas.net/">KALLYAS</a>
+							<p class="copyright">© 2020
+								<a href="lamtrust.github.io">Trust</a>
 								 | ALL RIGHTS RESERVED
-								<a href="https://hogash.com/"> HOGASH.</a>
-							</p>
-							<p class="btm-footer">Theme Powered by <a href="https://wordpress.org/"> <span style="color: #999;"> WordPress</span></a>
 							</p>
 						</div>
 					</div>
