@@ -739,7 +739,7 @@ a:focus, a:hover {
 @media (max-width: 479px) {
   .site-header {
     position: relative;
-    height: auto;
+    height: 30px;
   }
 }
 
@@ -748,8 +748,8 @@ a:focus, a:hover {
     background: rgba(0, 0, 0, 0.5);
   }
   .site-header .site-logo {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .site-header .sh-component li .cart-button .cart-icon--dark svg {
     fill: #fff;
@@ -839,7 +839,7 @@ a:focus, a:hover {
 
 @media (min-width: 768px) {
   .header--is-sticked .site-header-main {
-    height: auto;
+    height: 90px;
   }
   .header--is-sticked .main-menu-wrapper {
     /* >= 768px */
@@ -894,14 +894,16 @@ a:focus, a:hover {
   transform: translateX(-50%) translateY(0);
   transition: opacity .15s ease-in-out,transform .15s ease-in-out;
   backface-visibility: hidden;
+  width: 200px;
+  height: 65px;
 }
 
 .header--sticky .site-logo-img-sticky + .site-logo-img {
   opacity: 1;
   transition: opacity .15s ease-in-out;
   max-width: 100%;
-  width: 43px;
-  height: 44px;
+  width: 200px;
+  height: 65px;
 }
 
 .header--not-sticked {
@@ -928,7 +930,7 @@ a:focus, a:hover {
 
 @media (max-width: 767px) {
   .logo-container {
-    width: 100%;
+    width: 160%;
     text-align: center;
   }
 }
@@ -1133,7 +1135,7 @@ a:focus, a:hover {
   line-height: 16px;
   font-weight: 700;
   font-style: normal;
-  font-size: 13px;
+  font-size: 25px;
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: padding .2s ease-in-out,-webkit-transform .2s ease-in-out;

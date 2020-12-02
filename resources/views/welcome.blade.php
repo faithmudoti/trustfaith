@@ -1,53 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
+<!-- Mirrored from demos.hogash.com/membership_html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Nov 2020 08:29:10 GMT -->
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content=" width=device-width, initial-scale=1">
 		<title>membership</title>
     <!-- Fonts -->
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'CSZ PORTAL') }}</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato%7COpen+Sans%7CUbuntu:300,400,500,700" rel="stylesheet">
 
+		 <!-- Icons -->
 
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('fonts/font-awesome/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
     <!-- CSS assets -->
-		<link href="{{ asset('css/bootstrap.min.css" rel="stylesheet') }}">
-
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="addons/Magnific-Popup/magnific-popup.css" rel="stylesheet">
 		<!-- LOAD slick slider assets -->
-		<link rel="stylesheet" type="text/css" href="{{ asset('addons/slick/slick.css') }}"/>
-		<link rel="stylesheet" type="text/css" href="{{ asset('addons/slick/slick-theme.css') }}">
+		<link rel="stylesheet" type="text/css" href="addons/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="addons/slick/slick-theme.css"/>
     <!-- Main theme stylesheet -->
-    <link href="{{ asset('css/template.css') }}" rel="stylesheet" type="text/css">
-
-
+    <link href="css/template.css" rel="stylesheet" type="text/css">f
 	</head>
 
 	<body>
 		<div id="page_wrapper">
-				<!-- Responsive menu start -->
-                <ul class="mm__resMenu">
-					<li class="mm__resMenu-back">
-						<span class="mm__resMenu-backIcon glyphicon glyphicon-chevron-left"></span><a href="#" class="mm__resMenu-backLink">Back</a>
-					</li>
-					<li><a class="active" href="index.html"><span>Home</span></a></li>
-					<li><a class="mm__menu-link" href="index.html#about"><span>About</span></a>
 
-					<li><a class="" href="contact.html"><span>LOGIN</span></a></li>
-
-				</ul>
-
-                <header id="header" class="site-header header--sticky  header--not-sticked site-header--absolute">
+				<header id="header" class="site-header header--sticky header--not-sticked site-header--absolute">
 					<div class="site-header-main-wrapper clearfix">
 						<div class="container siteheader-container">
 								<div class="flex-col flex-basis-auto">
@@ -56,9 +36,9 @@
 										<div class="flex-col flex flex-start-x flex-center-y flex-basis-auto flex-grow-0 flex-sm-half site-header-col-left">
 											<div class="logo-container">
 													<div class="site-logo">
-															<a href="index.html" class="site-logo-anch">
-																	<img class="logo-img-sticky site-logo-img-sticky" src="img-assets/logo-landing2.png" alt="logo" title="membership">
-																	<img class="logo-img site-logo-img" src="img-assets/logo-landing2.png" alt="logo" title="membership" width="196" height="36">
+															<a href="#" class="site-logo-anch">
+																	<img class="logo-img-sticky site-logo-img-sticky" src="img-assets/csz_logo.jpg" alt="logo" title="membership">
+																	<img class="logo-img site-logo-img" src="img-assets/csz_logo.jpg" alt="logo" title="membership">
 															</a>
 													</div>
 											</div>
@@ -79,23 +59,19 @@
 															 </div><!--/.mm__mainMenu-trigger-->
 
 															 <ul class="mm__mainMenu clearfix">
-																 <li><a class="mm__menu-link" href="index.html#home"><span>Home</span></a></li>
+																 <li><a class="mm__menu-link" href=""><span>Home</span></a></li>
 																 <li><a class="mm__menu-link" href="index.html#about"><span>About</span></a></li>
-
-																 <li><a class="" href="{{ route('login') }}"><span>LOGIN</span></a></li>
+																 <li><a class="mm__contact active" href="contact.html"><span>LOGIN</span></a></li>
 
 															 </ul><!--/.mm__mainMenu-->
-
-														 </div><!--/.mm__menuWrapper-->
+														 </div>
 
 
 													</div>
 													<!--sign up button-->
 													<div class="mm__ctaButton sh-component">
-														 <a href="{{ route('register') }}" class="btn btn--round btn--fullblack"><span>Sign up</span></a>
+														 <a href="membership-levels.html" class="btn btn--round btn--fullblack"><span>Sign up</span></a>
 												 	</div>
-
-
 												</div>
 										</div>
 									</div>
@@ -109,25 +85,19 @@
 						<div class="row flex-center xs-flex-top">
 									<div class="col-md-12 col-sm-12">
 										<div class="title-block">
-<br><br>
 											<h1 class="home-heading">CSZ
 												<br>
-                                                 Membership
-                                                  <br>
-                                                 Portal
+												Membership
 											</h1>
-
+											<h6 class="home-subheading"> Get access Our Membership Programme </h6>
 										</div>
-										<a href="index.html#plan" class="btn btn--extralg btn--round btn--fullwhite">
-											START NOW </a>
+										<a href="index.html#pricing" class="btn btn--extralg btn--round btn--fullwhite">
+											Choose A Plan </a>
 									</div>
 							</div>
 					</div>
 
 			</div><!--end subheader-->
-
-
-
 
 			<!--pricing section-->
 			<section id="pricing" class="pricing-section page-section bg-color--white  pgt-150 pgb-150">
@@ -137,7 +107,7 @@
 					<div class="row">
 						<div class=" col-md-12 col-sm-12 ">
 							<div class="title-block">
-								<h6 class="title--large txt-light txt-center pgb-100">Pick your plan</h6>
+								<h6 class="title--large txt-light txt-center pgb-100">CHOOSE A SUITABLE MEMBERSHIP</h6>
 							</div>
 						</div>
 						<!-- start memebrship columns -->
@@ -145,15 +115,15 @@
 							<div class="pricing-element">
 								<div class="title-block">
 									<h2 class="title--huge txt-center txt-color"><sup>$</sup>550</h2>
-									<h6 class="subtitle pgb-20 txt-center txt-light">Professional</h6>
+									<h6 class="subtitle pgb-20 txt-center txt-light">PROFESSIONAL</h6>
 								</div>
 								<div class="pricing-description">
-									<h6 class="pricing-description__item">A person to be elected to the grade of Professional shall have acquired an established reputation as a professional practitioner in the field of Information Processing and meets the following criteria:</h6>
-									<h6 class="pricing-description__item">1. Agrees to undertake Continuing Professional Development</h6>
-									<h6 class="pricing-description__item">2. Attends an admissions interview and provides oral proof of his suitability for acceptance as a Professional Member. </h6>
+                                    <h4>A person to be elected to the grade of Professional Member shall,
+                                         at the time of application or nomination, satisfy the Membership Moderator that he has, by his attainments, acquired an established reputation as a professional practitioner in the field of Information Processing and meets the following criteria:
+                                    </h4>
 								</div>
 								<div class="txt-center">
-									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">VIEW</a>
+									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">Sign Up Today</a>
 								</div>
 							</div>
 						</div>
@@ -161,12 +131,10 @@
 							<div class="pricing-element">
 								<div class="title-block">
 									<h2 class="title--huge txt-center txt-color"><sup>$</sup>220</h2>
-									<h6 class="subtitle pgb-20 txt-center txt-light">Associate </h6>
+									<h6 class="subtitle pgb-20 txt-center txt-light">ASSOCIATE</h6>
 								</div>
 								<div class="pricing-description">
-									<h6 class="pricing-description__item"> A person to be elected to the grade of Associate Member shall, at the time of application or nomination, satisfy the Membership Committee that he meets the following criteria:</h6>
-									<h6 class="pricing-description__item">Is sponsored by two Members of the Society who will be asked to confirm their knowledge of the candidate   </h6>
-									<h6 class="pricing-description__item">Has the requisite number of qualifying points for the grade of Associate Member</h6>
+									<h4>A person to be elected to the grade of Associate Member shall, at the time of application or nomination, satisfy the Membership Committee that he meets the following criteria:Is sponsored by two Members of the Society who will be asked to confirm their knowledge of the candidate     </h4>
 								</div>
 								<div class="txt-center">
 									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
@@ -177,13 +145,12 @@
 						<div class="col-md-4 col-sm-4 ">
 							<div class="pricing-element">
 								<div class="title-block">
-									<h2 class="title--huge txt-center txt-color"><sup>$</sup>399</h2>
-									<h6 class="subtitle pgb-20 txt-center txt-light">Forever Membership</h6>
+									<h2 class="title--huge txt-center txt-color"><sup>$</sup>75</h2>
+									<h6 class="subtitle pgb-20 txt-center txt-light">GRADUATE</h6>
 								</div>
 								<div class="pricing-description">
-									<h6 class="pricing-description__item">1 theme included.</h6>
-									<h6 class="pricing-description__item">Unlimited theme updates & Support.</h6>
-									<h6 class="pricing-description__item">20% off future purchases.</h6>
+									<h4>A person to be elected as Graduate Member shall, at the time of application or nomination, satisfy the Membership Committee that he
+                                        : Is sponsored by two Members of the Society who will be asked to confirm their knowledge of the candidate</h4>
 								</div>
 								<div class="txt-center">
 									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
@@ -193,45 +160,80 @@
 						</div>
 					</div>
 				</div>
-            </section>
-            <!--pricing section-->
-			<section id="pricing" class="pricing-section page-section bg-color--white  pgt-150 pgb-150">
-				<div class="rellax rellax-third" data-rellax-percentage="0.9" style="background-image: url('images/parallax-background.jpg');">
+			</section>
+
+			<!--icons section-->
+			<section id="services" class="page-section pgt-200 pgb-60 bg-color--white">
+				<div class="container custom_width">
+					<div class="row">
+
+						<div class="col-md-4 col-sm-4 ">
+							<div class="max-width-container">
+								<div class="mm-iconbox mm-iconbox--style2">
+									<div class="mm-iconbox__icon-wrapper">
+										<img src="img-assets/icon1.png" class="img-responsive icon-img" alt title="iconbox">
+									</div>
+									<div class="mm-iconbox__content-wrapper txt-black">
+											<h3>Stunning Page Builder	</h3>
+											<p class="mm-iconbox__desc">Setup pages and content like a PRO. Coding is not required and a handy documentation is included.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 ">
+							<div class="max-width-container">
+								<div class="mm-iconbox mm-iconbox--style2">
+									<div class="mm-iconbox__icon-wrapper">
+										<img src="img-assets/icon4.png" class="img-responsive icon-img" alt title="iconbox">
+									</div>
+									<div class="mm-iconbox__content-wrapper txt-black">
+											<h3>Mature Project</h3>
+											<p class="mm-iconbox__desc">In time, gathering awesome feedback from our loyal customers, Kallyas became a mature, stable and future-proof project.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div><!--end row-->
 				</div>
-				<div class="container custom_width flex-center">
+
+			</section>
+
+			<section class="facts flex bg-color--white" >
+				<div class="rellax rellax-first" data-rellax-percentage="0.9" style="background-image: url('images/parallax-background.jpg');">
+				</div>
+                <div class="container custom_width flex-center">
 					<div class="row">
 						<div class=" col-md-12 col-sm-12 ">
 							<div class="title-block">
-								<h6 class="title--large txt-light txt-center pgb-100">Pick your plan</h6>
+								<h6 class="title--large txt-light txt-center pgb-100">CHOOSE A SUITABLE MEMBERSHIP</h6>
 							</div>
 						</div>
 						<!-- start memebrship columns -->
 						<div class="col-md-4 col-sm-4 border-right">
 							<div class="pricing-element">
 								<div class="title-block">
-									<h2 class="title--huge txt-center txt-color"><sup>$</sup>550</h2>
-									<h6 class="subtitle pgb-20 txt-center txt-light">Professional</h6>
+									<h2 class="title--huge txt-center txt-color"><sup>$</sup>50</h2>
+									<h6 class="subtitle pgb-20 txt-center txt-light">STUDENT</h6>
 								</div>
 								<div class="pricing-description">
-									<h6 class="pricing-description__item">A person to be elected to the grade of Professional shall have acquired an established reputation as a professional practitioner in the field of Information Processing and meets the following criteria:</h6>
-									<h6 class="pricing-description__item">1. Agrees to undertake Continuing Professional Development</h6>
-									<h6 class="pricing-description__item">2. Attends an admissions interview and provides oral proof of his suitability for acceptance as a Professional Member. </h6>
+                                    <h4>A person to be elected as Student Member shall, at the time of application or nomination, satisfy the both the Chapter Committee and the Membership Committee that he:
+
+                                        Is a bone fide student registered at a recognized institution for tertiary education and is following an approved course of study leading to a degree, diploma or professional qualification recognized by the Society.</h4>
 								</div>
 								<div class="txt-center">
-									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">VIEW</a>
+									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">Sign Up Today</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4 border-right">
 							<div class="pricing-element">
 								<div class="title-block">
-									<h2 class="title--huge txt-center txt-color"><sup>$</sup>220</h2>
-									<h6 class="subtitle pgb-20 txt-center txt-light">Associate </h6>
+									<h2 class="title--huge txt-center txt-color"><sup>$</sup>150</h2>
+									<h6 class="subtitle pgb-20 txt-center txt-light">AFfILIATE</h6>
 								</div>
 								<div class="pricing-description">
-									<h6 class="pricing-description__item"> A person to be elected to the grade of Associate Member shall, at the time of application or nomination, satisfy the Membership Committee that he meets the following criteria:</h6>
-									<h6 class="pricing-description__item">Is sponsored by two Members of the Society who will be asked to confirm their knowledge of the candidate   </h6>
-									<h6 class="pricing-description__item">Has the requisite number of qualifying points for the grade of Associate Member</h6>
+									<h4>A person to be elected as an Affiliate Member shall, at the time of application or nomination, satisfy both the Chapter Committee and the Membership Committee that he has a genuine interest in the development and use of computers and in the general aims of the Society.No formal academic qualifications are required for admission to this grade.</h4>
 								</div>
 								<div class="txt-center">
 									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
@@ -242,13 +244,13 @@
 						<div class="col-md-4 col-sm-4 ">
 							<div class="pricing-element">
 								<div class="title-block">
-									<h2 class="title--huge txt-center txt-color"><sup>$</sup>399</h2>
-									<h6 class="subtitle pgb-20 txt-center txt-light">Forever Membership</h6>
+									<h2 class="title--huge txt-center txt-color"><sup>$</sup>2100</h2>
+									<h6 class="subtitle pgb-20 txt-center txt-light">INSTISTUTIONAL</h6>
 								</div>
 								<div class="pricing-description">
-									<h6 class="pricing-description__item">1 theme included.</h6>
-									<h6 class="pricing-description__item">Unlimited theme updates & Support.</h6>
-									<h6 class="pricing-description__item">20% off future purchases.</h6>
+									<h4>A corporate or non-corporate body or other organization shall be eligible to become an INSTITUTIONAL MEMBER of  the Society provided that:
+                                        It gives such evidence as the Society may require of its interests in the aims of the Society,
+                                        It agrees to abide by the Codes of Ethics of the Society.</h4>
 								</div>
 								<div class="txt-center">
 									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
@@ -258,44 +260,198 @@
 						</div>
 					</div>
 				</div>
-            </section>
+			</section>
+			<!--testimonials section-->
+			<section class="bg-color--white testimonial-section">
+				<div class="container custom_width ">
 
+							<div class="clients">
+								<div class="title-block">
+									<h6 class="title--small txt-center pgb-80">Our Institutional Members</h6>
+								</div>
+								<div class="row"><!--start logo row-->
+									<div class="col-md-1-5 col-sm-1-5">
+										<div class="img-wrapper">
+											<img class="image-boxes-img img-responsive" src="images/1.jpg" alt title="client" >
+										</div>
+									</div>
+									<div class="col-md-1-5 col-sm-1-5">
+										<div class="img-wrapper">
+											<img class="image-boxes-img img-responsive" src="images/2.jpg" alt title="client" >
+										</div>
+									</div>
+									<div class="col-md-1-5 col-sm-1-5">
+										<div class="img-wrapper">
+											<img class="image-boxes-img img-responsive" src="images/3.jpg" alt title="client" >
+										</div>
+									</div>
+									<div class="col-md-1-5 col-sm-1-5">
+										<div class="img-wrapper">
+											<img class="image-boxes-img img-responsive" src="images/4.jpg" alt title="client" >
+										</div>
+									</div>
+									<div class="col-md-1-5 col-sm-1-5">
+										<div class="img-wrapper">
+											<img class="image-boxes-img img-responsive" src="images/5.jpg" alt title="client" >
+										</div>
+									</div>
+							</div>
+						</div><!--end clients-->
+				</div>
+			</section>
+			<!--drop us a line section-->
+			<section class="section-drop page-section flex bg-color--dark">
+				<div class="rellax rellax-second " data-rellax-percentage="0.2" style="background-image: url('images/csz.jpeg');">
+				</div>
+
+				<div class="container custom_width container-relax flex-center">
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="title-block ">
+								<h5 class="title--small txt-center txt-light">Get in Touch With Us.</h5>
+								<h6 class="subtitle txt-center txt-light">
+									Whether you’re interested in working with us or for us, we’re always happy to chat.<br>
+									<br>For Inquiries:<span style="color:#c89d28;font-family: georgia;font-size: 22px; font-weight: 100;">&nbsp;(500) 123-0800</span>. </h6>
+
+							</div>
+							<div class="txt-center pgt-10">
+								<a href="#" class="btn btn--extralg btn--round btn--fullwhite">Drop us a line</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 			<!-- Start footer -->
 			<footer class="pgb-100 pgt-160  bg-color--dark">
+				<div class="container custom_width">
+					<div class="row footer_row">
+						<div class="col-md-6 col-sm-6">
+							<div class="footer-desc-cont">
+								<h6 class="txt-light footer-menu-title">
+									CSZ MEMBERSHIP
+								</h6>
+								<h5 class="footer-desc txt-light">
+									The Computer Society of Zimbabwe was founded in 1974 with one objective, that of benefiting the Computer Industry and all people who work in it. The Society’s aims were to educate the general public on the use and development of Electronic Data Processing, today more widely known as Information and Communication Technologies (ICTs).
+                                </h5>
+							</div>
+						</div>
+						<div class=" col-md-2 col-sm-2">
+							<div class="vertical-list">
+								<h5 class="txt-light footer-menu-title">
+									COMPANY
+								</h5>
+								<ul class="vertical-ul">
+									<li>
+										<a href="#"><span>Our Blog</span></a>
+									</li>
+									<li>
+										<a href="#"><span>Instagram</span></a>
+									</li>
+									<li>
+										<a href="#"><span>Snapchat</span></a>
+									</li>
+									<li>
+										<a href="#"><span>Facebook</span></a>
+									</li>
+									<li>
+										<a href="#"><span>Twitter</span></a>
+									</li>
+									<li>
+										<a href="#"><span>Dribbble</span></a>
+									</li>
+								</ul>
 
-					<div class="row">
-						<div class=" col-md-12 col-sm-12">
-							<p class="copyright">© 2020
-								<a href="https://www.csz.org.zw/">CZS</a>
-								 | ALL RIGHTS RESERVED
-								<a href="https://www.csz.org.zw//"> CSZ.</a>
-							</p>
+							</div>
+						</div>
+						<div class=" col-md-2 col-sm-2">
+							<div class="vertical-list">
+								<h5 class="txt-light footer-menu-title">
+									MEMBER
+								</h5>
+								<ul class="vertical-ul">
+									<li>
+										<a href="#"><span>Home</span></a>
+									</li>
+									<li>
+										<a href="#"><span>About</span></a>
+									</li>
+									<li>
+										<a href="#"><span>Pricing</span></a>
+									</li>
+									<li>
+										<a href="#"><span>BLog</span></a>
+									</li>
+									<li>
+										<a href="#"><span>Services</span></a>
+									</li>
+									<li>
+										<a href="#"><span>Shop</span></a>
+									</li>
+								</ul>
 
-							</p>
+							</div>
+						</div>
+						<div class=" col-md-2 col-sm-2">
+							<div class="vertical-list">
+								<h5 class="txt-light footer-menu-title">
+									FOLLOW
+								</h5>
+								<ul class="vertical-ul">
+									<li>
+										<a href="#"><span>Account</span></a>
+									</li>
+									<li>
+										<a href="#"><span>Billing</span></a>
+									</li>
+									<li>
+										<a href="#"><span>Membership</span></a>
+									</li>
+									<li>
+										<a href="#"><span>Receipt</span></a>
+									</li>
+									<li>
+										<a href="#"><span>Invoice</span></a>
+									</li>
+
+								</ul>
+
+							</div>
 						</div>
 
+
+					</div>
+					<div class="row">
+						<div class=" col-md-12 col-sm-12">
+							<p class="copyright">© 2017
+								<a href="https://kallyas.net/">KALLYAS</a>
+								 | ALL RIGHTS RESERVED
+								<a href="https://hogash.com/"> HOGASH.</a>
+							</p>
+							<p class="btm-footer">Theme Powered by <a href="https://wordpress.org/"> <span style="color: #999;"> WordPress</span></a>
+							</p>
+						</div>
+					</div>
 				</div>
 
 			</footer>
+		</div><!-- /.#page_wrapper -->
+		<a href="#" class="totop">TOP</a> <!--/.totop -->
 
 
-        <!-- Scripts -->
-        <script src="{{ asset('js/app.js') }}" defer></script>
-        <script src="{{ asset('js/plugins/jquery-3.2.1.min.js') }}"></script>
-        <script src="{{ asset('js/plugins/bootstrap.min.js') }}"></script>
-        <!--isotope script-->
-        <script src="{{ asset('addons/isotope/isotope.pkgd.min.js') }}"></script>
-            <script src="{{ asset('addons/slick/slick.min.js') }}"></script>
-        <script src="{{ asset('addons/imagesloaded.pkgd.min.js') }}"></script>
-        <script src="{{ asset('addons/rellax-master/rellax.min.js') }}"></script>
-        <!--popup script-->
-        <script src="{{ asset('addons/Magnific-Popup/jquery.magnific-popup.js') }}"></script>
-        <!--count script-->
-        <script src="{{ asset('addons/jquery.countTo.js') }}"></script>
-        <script src="{{ asset('addons/jquery.smooth-scroll.min.js') }}"></script>
-        <!-- Main template script -->
-        <script src="{{ asset('js/script.js')}}"></script>
-
+	<script src="js/plugins/jquery-3.2.1.min.js"></script>
+	<script src="js/plugins/bootstrap.min.js"></script>
+	<!--isotope script-->
+	<script src="addons/isotope/isotope.pkgd.min.js"></script>
+		<script src="addons/slick/slick.min.js"></script>
+	<script src="addons/imagesloaded.pkgd.min.js"></script>
+	<script src="addons/rellax-master/rellax.min.js"></script>
+	<!--popup script-->
+	<script src="addons/Magnific-Popup/jquery.magnific-popup.js"></script>
+	<!--count script-->
+	<script src="addons/jquery.countTo.js"></script>
+	<script src="addons/jquery.smooth-scroll.min.js"></script>
+	<!-- Main template script -->
+	<script src="js/script.js"></script>
 
 	</body>
 
