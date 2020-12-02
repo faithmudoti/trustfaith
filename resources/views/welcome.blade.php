@@ -8,11 +8,8 @@
 		<meta name="viewport" content=" width=device-width, initial-scale=1">
 		<title>membership</title>
     <!-- Fonts -->
-
 		<link href="https://fonts.googleapis.com/css?family=Lato%7COpen+Sans%7CUbuntu:300,400,500,700" rel="stylesheet">
-
 		 <!-- Icons -->
-
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
     <!-- CSS assets -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -43,7 +40,6 @@
 													</div>
 											</div>
 										</div>
-
 										<!-- right column - navigation menu -->
 										<div class="flex-col flex flex-end-x flex-center-y flex-basis-auto flex-sm-half site-header-col-right site-header-main-right">
 												<div class="main-menu-wrapper">
@@ -57,20 +53,17 @@
 																	 <span></span>
 																 </a>
 															 </div><!--/.mm__mainMenu-trigger-->
-
 															 <ul class="mm__mainMenu clearfix">
 																 <li><a class="mm__menu-link" href=""><span>Home</span></a></li>
 																 <li><a class="mm__menu-link" href="index.html#about"><span>About</span></a></li>
-																 <li><a class="mm__contact active" href="contact.html"><span>LOGIN</span></a></li>
+																 <li><a class="mm__contact active" href="{{ route('login') }}"><span>LOGIN</span></a></li>
 
 															 </ul><!--/.mm__mainMenu-->
 														 </div>
-
-
 													</div>
 													<!--sign up button-->
 													<div class="mm__ctaButton sh-component">
-														 <a href="membership-levels.html" class="btn btn--round btn--fullblack"><span>Sign up</span></a>
+														 <a href="{{ route('register') }}" class="btn btn--round btn--fullblack"><span>Sign up</span></a>
 												 	</div>
 												</div>
 										</div>
@@ -80,7 +73,6 @@
 					</div>
 			</header>
 			<div class="mm-subheader" id="home">
-
 					<div class="custom-width-container custom-height-container container flex">
 						<div class="row flex-center xs-flex-top">
 									<div class="col-md-12 col-sm-12">
@@ -96,9 +88,7 @@
 									</div>
 							</div>
 					</div>
-
 			</div><!--end subheader-->
-
 			<!--pricing section-->
 			<section id="pricing" class="pricing-section page-section bg-color--white  pgt-150 pgb-150">
 				<div class="rellax rellax-third" data-rellax-percentage="0.9" style="background-image: url('images/parallax-background.jpg');">
@@ -140,7 +130,6 @@
 									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
 								</div>
 							</div>
-
 						</div>
 						<div class="col-md-4 col-sm-4 ">
 							<div class="pricing-element">
@@ -156,12 +145,10 @@
 									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</div>
 			</section>
-
 			<!--icons section-->
 			<section id="services" class="page-section pgt-200 pgb-60 bg-color--white">
 				<div class="container custom_width">
