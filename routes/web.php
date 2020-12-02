@@ -22,6 +22,7 @@ Auth::routes();
 
 Route::resource('members', 'MembersController');
 Route::get('member_dashboard' , 'ClientController@index');
+Route::post('member_verified_student', 'ClientController@member');
 
 
 Route::get('/reports', 'MembersController@reportsIndex')->name('reports');

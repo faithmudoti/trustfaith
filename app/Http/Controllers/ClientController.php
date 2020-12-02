@@ -10,4 +10,9 @@ class ClientController extends Controller
     {
         return view('member.index');
     }
+
+    public function member()
+    {
+        return view('member.verify');
+    }
 }
