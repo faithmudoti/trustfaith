@@ -28,6 +28,18 @@
             </div>
           </div>
         </div>
+        <label>Choose Mmebership Type </label>
+            <div class="input-group mb-3">
+            <select type="email" class="form-control" >
+                <option selected></option>
+                <option >PROFESSIONAL</option>
+                <option >ASSOCIATE</option>
+                <option >GRADUATE</option>
+                <option >STUDENT</option>
+                <option >AFFILATE</option>
+                <option >INSTISTUTIONAL</option>
+            </select>
+          </div>
         <div class="row">
           <div class="col-4">
             <button type="submit" class="btn btn-primary btn-block">Verify</button>
@@ -37,7 +49,7 @@
       </form>
 
       <p class="mb-0">
-        <a href="/login" class="text-center">Login In</a>
+        <a href="/login" class="text-center">Already have an Account ?? Login In</a>
       </p>
     </div>
     <!-- /.login-card-body -->

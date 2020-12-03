@@ -113,7 +113,7 @@
                                     </h4>
 								</div>
 								<div class="txt-center">
-									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">Sign Up Today</a>
+									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">Sign Up Today</a>
 								</div>
 							</div>
 						</div>
@@ -127,7 +127,7 @@
 									<h4>A person to be elected to the grade of Associate Member shall, at the time of application or nomination, satisfy the Membership Committee that he meets the following criteria:Is sponsored by two Members of the Society who will be asked to confirm their knowledge of the candidate     </h4>
 								</div>
 								<div class="txt-center">
-									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
+									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
 								</div>
 							</div>
 						</div>
@@ -142,7 +142,7 @@
                                         : Is sponsored by two Members of the Society who will be asked to confirm their knowledge of the candidate</h4>
 								</div>
 								<div class="txt-center">
-									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
+									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
 								</div>
 							</div>
 						</div>
@@ -209,7 +209,7 @@
                                         Is a bone fide student registered at a recognized institution for tertiary education and is following an approved course of study leading to a degree, diploma or professional qualification recognized by the Society.</h4>
 								</div>
 								<div class="txt-center">
-									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">Sign Up Today</a>
+									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">Sign Up Today</a>
 								</div>
 							</div>
 						</div>
@@ -223,7 +223,7 @@
 									<h4>A person to be elected as an Affiliate Member shall, at the time of application or nomination, satisfy both the Chapter Committee and the Membership Committee that he has a genuine interest in the development and use of computers and in the general aims of the Society.No formal academic qualifications are required for admission to this grade.</h4>
 								</div>
 								<div class="txt-center">
-									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
+									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
 								</div>
 							</div>
 
@@ -240,7 +240,7 @@
                                         It agrees to abide by the Codes of Ethics of the Society.</h4>
 								</div>
 								<div class="txt-center">
-									<a href="membership-levels.html" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
+									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
 								</div>
 							</div>
 

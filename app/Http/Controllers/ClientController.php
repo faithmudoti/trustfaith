@@ -15,4 +15,9 @@ class ClientController extends Controller
     {
         return view('member.verify');
     }
+
+    public function profile()
+    {
+        return view('member.member');
+    }
 }
