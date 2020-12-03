@@ -28,9 +28,9 @@
             </div>
           </div>
         </div>
-        <label>Choose Mmebership Type </label>
+        <label>Choose Memebership Type </label>
             <div class="input-group mb-3">
-            <select type="email" class="form-control" >
+            <select type="text" name="membership" class="form-control" >
                 <option selected></option>
                 <option >PROFESSIONAL</option>
                 <option >ASSOCIATE</option>

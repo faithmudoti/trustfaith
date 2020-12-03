@@ -24,6 +24,9 @@ Route::resource('members', 'MembersController');
 Route::get('member_dashboard' , 'ClientController@index');
 Route::post('member_verified_student', 'ClientController@member');
 Route::get('member_profile', 'ClientController@profile');
+Route::get('member_verified_graduate', 'ClientController@graduate');
+Route::get('member_verified_professional', 'ClientController@professional');
+
 
 
 

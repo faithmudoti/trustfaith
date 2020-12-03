@@ -34,8 +34,8 @@
 											<div class="logo-container">
 													<div class="site-logo">
 															<a href="#" class="site-logo-anch">
-																	<img class="logo-img-sticky site-logo-img-sticky" src="img-assets/csz_logo.jpg" alt="logo" title="membership">
-																	<img class="logo-img site-logo-img" src="img-assets/csz_logo.jpg" alt="logo" title="membership">
+																	<img class="logo-img-sticky site-logo-img-sticky" src="img-assets/csz.png" alt="logo" title="membership">
+																	<img class="logo-img site-logo-img" src="img-assets/csz.png" alt="logo" title="membership">
 															</a>
 													</div>
 											</div>
@@ -83,15 +83,13 @@
 											</h1>
 											<h6 class="home-subheading"> Get access Our Membership Programme </h6>
 										</div>
-										<a href="index.html#pricing" class="btn btn--extralg btn--round btn--fullwhite">
-											Choose A Plan </a>
 									</div>
 							</div>
 					</div>
 			</div><!--end subheader-->
 			<!--pricing section-->
 			<section id="pricing" class="pricing-section page-section bg-color--white  pgt-150 pgb-150">
-				<div class="rellax rellax-third" data-rellax-percentage="0.9" style="background-image: url('images/parallax-background.jpg');">
+				<div class="rellax rellax-third" data-rellax-percentage="0.9" style="background-image: url('images/14.jpg');">
 				</div>
 				<div class="container custom_width flex-center">
 					<div class="row">
@@ -108,9 +106,9 @@
 									<h6 class="subtitle pgb-20 txt-center txt-light">PROFESSIONAL</h6>
 								</div>
 								<div class="pricing-description">
-                                    <h4>A person to be elected to the grade of Professional Member shall,
+                                    <h3>A person to be elected to the grade of Professional Member shall,
                                          at the time of application or nomination, satisfy the Membership Moderator that he has, by his attainments, acquired an established reputation as a professional practitioner in the field of Information Processing and meets the following criteria:
-                                    </h4>
+                                    </h3>
 								</div>
 								<div class="txt-center">
 									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">Sign Up Today</a>
@@ -124,7 +122,7 @@
 									<h6 class="subtitle pgb-20 txt-center txt-light">ASSOCIATE</h6>
 								</div>
 								<div class="pricing-description">
-									<h4>A person to be elected to the grade of Associate Member shall, at the time of application or nomination, satisfy the Membership Committee that he meets the following criteria:Is sponsored by two Members of the Society who will be asked to confirm their knowledge of the candidate     </h4>
+									<h3>A person to be elected to the grade of Associate Member shall, at the time of application or nomination, satisfy the Membership Committee that he meets the following criteria:Is sponsored by two Members of the Society who will be asked to confirm their knowledge of the candidate     </h3>
 								</div>
 								<div class="txt-center">
 									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
@@ -138,8 +136,8 @@
 									<h6 class="subtitle pgb-20 txt-center txt-light">GRADUATE</h6>
 								</div>
 								<div class="pricing-description">
-									<h4>A person to be elected as Graduate Member shall, at the time of application or nomination, satisfy the Membership Committee that he
-                                        : Is sponsored by two Members of the Society who will be asked to confirm their knowledge of the candidate</h4>
+									<h3>A person to be elected as Graduate Member shall, at the time of application or nomination, satisfy the Membership Committee that he
+                                        : Is sponsored by two Members of the Society who will be asked to confirm their knowledge of the candidate</h3>
 								</div>
 								<div class="txt-center">
 									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
@@ -187,7 +185,7 @@
 			</section>
 
 			<section class="facts flex bg-color--white" >
-				<div class="rellax rellax-first" data-rellax-percentage="0.9" style="background-image: url('images/parallax-background.jpg');">
+				<div class="rellax rellax-first" data-rellax-percentage="0.9" style="background-image: url('images/14.jpg');">
 				</div>
                 <div class="container custom_width flex-center">
 					<div class="row">
@@ -204,9 +202,9 @@
 									<h6 class="subtitle pgb-20 txt-center txt-light">STUDENT</h6>
 								</div>
 								<div class="pricing-description">
-                                    <h4>A person to be elected as Student Member shall, at the time of application or nomination, satisfy the both the Chapter Committee and the Membership Committee that he:
+                                    <h3>A person to be elected as Student Member shall, at the time of application or nomination, satisfy the both the Chapter Committee and the Membership Committee that he:
 
-                                        Is a bone fide student registered at a recognized institution for tertiary education and is following an approved course of study leading to a degree, diploma or professional qualification recognized by the Society.</h4>
+                                        Is a bone fide student registered at a recognized institution for tertiary education and is following an approved course of study leading to a degree, diploma or professional qualification recognized by the Society.</h3>
 								</div>
 								<div class="txt-center">
 									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">Sign Up Today</a>
@@ -220,7 +218,7 @@
 									<h6 class="subtitle pgb-20 txt-center txt-light">AFfILIATE</h6>
 								</div>
 								<div class="pricing-description">
-									<h4>A person to be elected as an Affiliate Member shall, at the time of application or nomination, satisfy both the Chapter Committee and the Membership Committee that he has a genuine interest in the development and use of computers and in the general aims of the Society.No formal academic qualifications are required for admission to this grade.</h4>
+									<h3>A person to be elected as an Affiliate Member shall, at the time of application or nomination, satisfy both the Chapter Committee and the Membership Committee that he has a genuine interest in the development and use of computers and in the general aims of the Society.No formal academic qualifications are required for admission to this grade.</h3>
 								</div>
 								<div class="txt-center">
 									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
@@ -235,9 +233,9 @@
 									<h6 class="subtitle pgb-20 txt-center txt-light">INSTISTUTIONAL</h6>
 								</div>
 								<div class="pricing-description">
-									<h4>A corporate or non-corporate body or other organization shall be eligible to become an INSTITUTIONAL MEMBER of  the Society provided that:
+									<h3>A corporate or non-corporate body or other organization shall be eligible to become an INSTITUTIONAL MEMBER of  the Society provided that:
                                         It gives such evidence as the Society may require of its interests in the aims of the Society,
-                                        It agrees to abide by the Codes of Ethics of the Society.</h4>
+                                        It agrees to abide by the Codes of Ethics of the Society.</h3>
 								</div>
 								<div class="txt-center">
 									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
@@ -332,7 +330,7 @@
 										<a href="https://www.csz.org.zw/"><span>Our Blog</span></a>
 									</li>
 									<li>
-										<a href="https://www.instagram.com/p/CGZo3PyMMh4/"><span>Instagram</span></a>
+										<a href="https://www.instagram.com/p/CGZo3PyMMh3/"><span>Instagram</span></a>
 									</li>
 									<li>
 										<a href="https://www.facebook.com/ComputerSocietyofZimbabwe/"><span>Facebook</span></a>

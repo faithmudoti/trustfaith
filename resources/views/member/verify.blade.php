@@ -17,8 +17,8 @@
   <div class="container-fluid" id="grad1">
         <div class="col-md-12">
             <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
-                <h2><strong>Sign Up Your Membership</strong></h2>
-                <p>Fill all form field to go to next step</p>
+                <h2><strong>Student Membership</strong></h2>
+                <p>Fill all form field to go complete registration</p>
                 <div class="row">
                     <div class="col-md-12 mx-0">
                         <form id="msform" action="" method="POST">
@@ -32,28 +32,51 @@
                             </ul> <!-- fieldsets -->
                             <fieldset>
                                 <div class="form-card">
-                                    <h2 class="fs-title">Account Information</h2> 
-                                    <input type="email" name="email" placeholder="Email Id" />
-                                    <input type="text" name="uname" placeholder="UserName" /> 
-                                    <input type="password" name="pwd" placeholder="Password" /> 
-                                    <input type="password" name="pwd" placeholder="Password" /> 
-                                    <input type="password" name="pwd" placeholder="Password" /> 
+                                    <h2 class="fs-title">Account Information</h2>
+                                    <label>Select Chapter Affiliation</label>
+                                    <select type="text" class="form-control">
+                                        <option>Bulawayo Chapter<option>
+                                        <option>Gweru Chapter<option>
+                                        <option>Harare Chapter<option>
+                                    </select>
+                                    <br>
+                                    <input type="email" name="email" placeholder="Email" />
+                                    <input type="text" name="uname" placeholder="UserName" />
+                                    <input type="text" name="fname" placeholder="First Name" />
+                                    <input type="text" name="fname" placeholder="Surname" />
+                                    <input type="text" name="pwd" placeholder="Mobile number" />
+                                    <input type="password" name="pwd" placeholder="Password" />
                                     <input type="password" name="cpwd" placeholder="Confirm Password" />
-                                </div> <input type="button" name="next" class="next action-button" value="Next Step" />
+
+                                </div>
+                                 <input type="button" name="next" class="next action-button" value="Next Step" />
                             </fieldset>
                             <fieldset>
                                 <div class="form-card">
-                                    <h2 class="fs-title">Personal Information</h2> <input type="text" name="fname" placeholder="First Name" /> <input type="text" name="lname" placeholder="Last Name" /> <input type="text" name="phno" placeholder="Contact No." /> <input type="text" name="phno_2" placeholder="Alternate Contact No." />
-                                </div> <input type="button" name="previous" class="previous action-button-previous" value="Previous" /> <input type="button" name="next" class="next action-button" value="Next Step" />
+                                    <h2 class="fs-title">Personal Information</h2>
+                                    <input type="text" name="fname" placeholder="School Name" />
+                                    <label>Date Of Birth</label>
+                                    <input type="date" name="fname" placeholder="Date Of Birth" />
+                                    <br>
+                                    <textarea type="text" name="lname" placeholder="Physical Address" ></textarea>
+                                    <textarea type="text" name="phno" placeholder="Reason For Joining CSZ" ></textarea>
+                                    <br>
+                                    <label>Upload School ID</label>
+                                    <input type="file" name="phno_2" placeholder="School ID" />
+                                    <br>
+                                    <label>Upload National ID</label>
+                                    <input type="file" name="phno_2" placeholder="National ID" />
+                                </div> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                                <input type="button" name="next" class="next action-button" value="Next Step" />
                             </fieldset>
                             <fieldset>
                                 <div class="form-card">
                                     <h2 class="fs-title">Payment Information</h2>
                                     <div class="radio-group">
                                         <div class='radio' data-value="credit"><img src="images/paynow.svg" width="200px" height="100px"></div>
-                                    </div> 
-                                </div> 
-                                <input type="button" name="previous" class="previous action-button-previous" value="Previous" /> 
+                                    </div>
+                                </div>
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
                                 <input type="button" name="make_payment" class="next action-button" value="Confirm" />
                             </fieldset>
                             <fieldset>

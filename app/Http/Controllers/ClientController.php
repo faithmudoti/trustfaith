@@ -11,13 +11,39 @@ class ClientController extends Controller
         return view('member.index');
     }
 
-    public function member()
+    public function member(Request $request)
     {
-        return view('member.verify');
+
+        if($request->membership == "STUDENT")
+        {
+            return view('member.verify');
+        }
+
+        elseif($request->membership == "GRADUATE")
+        {
+            return view('member.graduate');
+        }
+
+        elseif($request->membership == "PROFESSIONAL")
+        {
+            return view('member.proffesional');
+        }
+
     }
 
     public function profile()
     {
         return view('member.member');
     }
+
+    public function graduate()
+    {
+        return view('member.graduate');
+    }
+
+    public function professional()
+    {
+        return view('member.proffesional');
+    }
+
 }

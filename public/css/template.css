@@ -726,7 +726,7 @@ select.list-dt:focus {
 }
 
 .bg-color--dark {
-  background-color: #0e0e0e;
+  background-color: rgb(12,25,60);
 }
 
 .bg-color--grey {
@@ -983,7 +983,7 @@ select.list-dt:focus {
 
 @media (max-width: 767px) {
   .site-header {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(12,25,60);
   }
   .site-header .site-logo {
     padding-top: 10px;
@@ -1025,7 +1025,7 @@ select.list-dt:focus {
   }
   /* create dark class for header */
   .site-header.header--dark {
-    background-color: rgba(22, 22, 22, 0.6);
+    background-color: rgb(12,25,60);
   }
   .site-header.header--dark .main-menu-wrapper .sh__hamburger-trigger span {
     background: white;
@@ -1043,13 +1043,13 @@ select.list-dt:focus {
     background-color: #fff;
   }
   .site-header.header--light .main-menu-wrapper .sh__hamburger-trigger span {
-    background: #0e0e0e;
+    background: rgb(12,25,60);
   }
   .site-header.header--light .sh-component li .cart-icon {
     top: 6px;
   }
   .site-header.header--light .sh-component li .cart-icon svg {
-    fill: #0e0e0e;
+    fill: rgb(12,25,60);
   }
   .site-header.header--sticky {
     width: 100%;
@@ -1111,7 +1111,7 @@ select.list-dt:focus {
 }
 
 .site-header.header--light .main-menu-wrapper .sh__hamburger-trigger span {
-  background: #0e0e0e;
+  background: rgb(12,25,60);
 }
 
 .site-header.header--light .sh-component li .cart-icon {
@@ -1119,7 +1119,7 @@ select.list-dt:focus {
 }
 
 .site-header.header--light .sh-component li .cart-icon svg {
-  fill: #0e0e0e;
+  fill: rgb(12,25,60);
 }
 
 /* images when top bar sticked*/
@@ -1340,7 +1340,7 @@ select.list-dt:focus {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .mm__menuWrapper .mm__mainMenu-trigger .mm__menuBurger span {
-    background: #000;
+    background: rgb(12,25,60);
   }
 }
 
@@ -1386,7 +1386,7 @@ select.list-dt:focus {
 
 .mm__mainMenu li a:hover {
   text-decoration: none;
-  color: #0a0a0a;
+  color: rgb(12,25,60);
 }
 
 @media (max-width: 991px) {
@@ -1396,7 +1396,7 @@ select.list-dt:focus {
 }
 
 .mm__mainMenu--dark li a {
-  color: #0a0a0a;
+  color: rgb(12,25,60);
 }
 
 .sh-component {
@@ -1444,7 +1444,7 @@ select.list-dt:focus {
 }
 
 .sh-component li .cart-button .cart-icon--dark svg {
-  fill: #0e0e0e;
+  fill: rgb(12,25,60);
 }
 
 .sh-component li .cart-button .cart-icon:after {
@@ -1466,7 +1466,7 @@ select.list-dt:focus {
 }
 
 .mm-subheader {
-  background-image: url(../images/kallyas-landingpage.jpg);
+  background-image: url(../images/omni.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1476,7 +1476,7 @@ select.list-dt:focus {
 .mm-subheader--light {
   background: #fff;
   background-image: none;
-  color: #000;
+  color: rgb(12,25,60);
   position: relative;
 }
 
@@ -1796,7 +1796,7 @@ select.list-dt:focus {
   font-size: 74px;
   font-weight: 100;
   line-height: 85px;
-  color: #000;
+  color: rgb(208,74,68);
   margin-bottom: 20px;
   /* <= 768px */
 }
@@ -1811,16 +1811,16 @@ select.list-dt:focus {
 .home-subheading {
   font-weight: 300;
   font-size: 24px;
-  color: #333333;
+  color: rgb(12,25,60);
   padding-bottom: 30px;
 }
 
 .txt-light {
-  color: #fff;
+  color: rgb(200,69,45);
 }
 
 .txt-dark {
-  color: #535353;
+  color: rgb(200,69,45);
 }
 
 .txt-black {
@@ -1996,7 +1996,7 @@ select.list-dt:focus {
 
 .pricing-description__item {
   font-size: 14px;
-  color: #999999;
+  color: rgb(200,69,45);
   line-height: 18px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;

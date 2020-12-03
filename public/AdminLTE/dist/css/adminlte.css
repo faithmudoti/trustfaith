@@ -22,8 +22,8 @@ html {
 }
 
 #grad1 {
-  background-color: : #9C27B0;
-  background-image: linear-gradient(120deg, #FF4081, #81D4FA)
+  background-color:  rgb(208,74,68);
+  background-image: linear-gradient(120deg, rgb(208,74,68), rgb(12,25,60) )
 }
 
 #msform {
@@ -87,13 +87,13 @@ html {
   box-shadow: none !important;
   border: none;
   font-weight: bold;
-  border-bottom: 2px solid skyblue;
+  border-bottom: 2px solid rgb(12,25,60);
   outline-width: 0
 }
 
 #msform .action-button {
   width: 100px;
-  background: skyblue;
+  background: rgb(12,25,60);
   font-weight: bold;
   color: white;
   border: 0 none;
@@ -134,7 +134,7 @@ select.list-dt {
 }
 
 select.list-dt:focus {
-  border-bottom: 2px solid skyblue
+  border-bottom: 2px solid rgb(12,25,60)
 }
 
 .card {
