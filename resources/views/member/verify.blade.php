@@ -21,7 +21,7 @@
                 <p>Fill all form field to go to next step</p>
                 <div class="row">
                     <div class="col-md-12 mx-0">
-                        <form id="msform" action="/member_dashboard" method="POST">
+                        <form id="msform" action="" method="POST">
                             {{ csrf_field() }}
                             <!-- progressbar -->
                             <ul id="progressbar">
