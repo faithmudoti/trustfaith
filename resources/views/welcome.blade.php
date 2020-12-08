@@ -18,7 +18,7 @@
 		<link rel="stylesheet" type="text/css" href="addons/slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="addons/slick/slick-theme.css"/>
     <!-- Main theme stylesheet -->
-    <link href="css/template.css" rel="stylesheet" type="text/css">f
+    <link href="css/template.css" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
@@ -54,8 +54,8 @@
 																 </a>
 															 </div><!--/.mm__mainMenu-trigger-->
 															 <ul class="mm__mainMenu clearfix">
-																 <li><a class="mm__menu-link" href=""><span>Home</span></a></li>
-																 <li><a class="mm__menu-link" href="index.html#about"><span>About</span></a></li>
+																 <li><a class="mm__menu-link txt-nav" href=""><span>Home</span></a></li>
+																 <li><a class="mm__menu-link txt-nav" href="index.html#about"><span>About</span></a></li>
 																 <li><a class="mm__contact active" href="{{ route('login') }}"><span>LOGIN</span></a></li>
 
 															 </ul><!--/.mm__mainMenu-->
@@ -103,7 +103,7 @@
 							<div class="pricing-element">
 								<div class="title-block">
 									<h2 class="title--huge txt-center txt-color"><sup>$</sup>550</h2>
-									<h6 class="subtitle pgb-20 txt-center txt-light">PROFESSIONAL</h6>
+									<h6 class="subtitle pgb-20 txt-center txt-account">PROFESSIONAL</h6>
 								</div>
 								<div class="pricing-description">
                                     <h3>A person to be elected to the grade of Professional Member shall,
@@ -111,7 +111,7 @@
                                     </h3>
 								</div>
 								<div class="txt-center">
-									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">Sign Up Today</a>
+									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up</a>
 								</div>
 							</div>
 						</div>
@@ -119,13 +119,13 @@
 							<div class="pricing-element">
 								<div class="title-block">
 									<h2 class="title--huge txt-center txt-color"><sup>$</sup>220</h2>
-									<h6 class="subtitle pgb-20 txt-center txt-light">ASSOCIATE</h6>
+									<h6 class="subtitle pgb-20 txt-center txt-account">ASSOCIATE</h6>
 								</div>
 								<div class="pricing-description">
 									<h3>A person to be elected to the grade of Associate Member shall, at the time of application or nomination, satisfy the Membership Committee that he meets the following criteria:Is sponsored by two Members of the Society who will be asked to confirm their knowledge of the candidate     </h3>
 								</div>
 								<div class="txt-center">
-									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
+									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up</a>
 								</div>
 							</div>
 						</div>
@@ -133,14 +133,14 @@
 							<div class="pricing-element">
 								<div class="title-block">
 									<h2 class="title--huge txt-center txt-color"><sup>$</sup>75</h2>
-									<h6 class="subtitle pgb-20 txt-center txt-light">GRADUATE</h6>
+									<h6 class="subtitle pgb-20 txt-center txt-account">GRADUATE</h6>
 								</div>
 								<div class="pricing-description">
 									<h3>A person to be elected as Graduate Member shall, at the time of application or nomination, satisfy the Membership Committee that he
                                         : Is sponsored by two Members of the Society who will be asked to confirm their knowledge of the candidate</h3>
 								</div>
 								<div class="txt-center">
-									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
+									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up</a>
 								</div>
 							</div>
 						</div>
@@ -159,8 +159,8 @@
 										<img src="img-assets/icon1.png" class="img-responsive icon-img" alt title="iconbox">
 									</div>
 									<div class="mm-iconbox__content-wrapper txt-black">
-											<h3>Our Vision	</h3>
-											<p class="mm-iconbox__desc">To be the trusted industry body, anchored on professional knowledge driving the ICT ecosystem in Zimbabwe</p>
+											<h3 class="txt-nav">Our Vision	</h3>
+											<p class="mm-iconbox__desc txt-nav">To be the trusted industry body, anchored on professional knowledge driving the ICT ecosystem in Zimbabwe</p>
 									</div>
 								</div>
 							</div>
@@ -172,8 +172,8 @@
 										<img src="img-assets/icon4.png" class="img-responsive icon-img" alt title="iconbox">
 									</div>
 									<div class="mm-iconbox__content-wrapper txt-black">
-											<h3>Our Mission</h3>
-											<p class="mm-iconbox__desc">To champion the development of the ICT industry in Zimbabwe by establishing beneficial relationships and providing independent professional counsel for the benefit of members, government, industry and society at large.</p>
+											<h3 class="txt-nav">Our Mission</h3>
+											<p class="mm-iconbox__desc txt-nav">To champion the development of the ICT industry in Zimbabwe by establishing beneficial relationships and providing independent professional counsel for the benefit of members, government, industry and society at large.</p>
 									</div>
 								</div>
 							</div>
@@ -199,7 +199,7 @@
 							<div class="pricing-element">
 								<div class="title-block">
 									<h2 class="title--huge txt-center txt-color"><sup>$</sup>50</h2>
-									<h6 class="subtitle pgb-20 txt-center txt-light">STUDENT</h6>
+									<h6 class="subtitle pgb-20 txt-center txt-account">STUDENT</h6>
 								</div>
 								<div class="pricing-description">
                                     <h3>A person to be elected as Student Member shall, at the time of application or nomination, satisfy the both the Chapter Committee and the Membership Committee that he:
@@ -207,7 +207,7 @@
                                         Is a bone fide student registered at a recognized institution for tertiary education and is following an approved course of study leading to a degree, diploma or professional qualification recognized by the Society.</h3>
 								</div>
 								<div class="txt-center">
-									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">Sign Up Today</a>
+									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up</a>
 								</div>
 							</div>
 						</div>
@@ -215,13 +215,13 @@
 							<div class="pricing-element">
 								<div class="title-block">
 									<h2 class="title--huge txt-center txt-color"><sup>$</sup>150</h2>
-									<h6 class="subtitle pgb-20 txt-center txt-light">AFfILIATE</h6>
+									<h6 class="subtitle pgb-20 txt-center txt-account">AFFILIATE</h6>
 								</div>
 								<div class="pricing-description">
 									<h3>A person to be elected as an Affiliate Member shall, at the time of application or nomination, satisfy both the Chapter Committee and the Membership Committee that he has a genuine interest in the development and use of computers and in the general aims of the Society.No formal academic qualifications are required for admission to this grade.</h3>
 								</div>
 								<div class="txt-center">
-									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
+									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up</a>
 								</div>
 							</div>
 
@@ -230,7 +230,7 @@
 							<div class="pricing-element">
 								<div class="title-block">
 									<h2 class="title--huge txt-center txt-color"><sup>$</sup>2100</h2>
-									<h6 class="subtitle pgb-20 txt-center txt-light">INSTISTUTIONAL</h6>
+									<h6 class="subtitle pgb-20 txt-center txt-account">INSTISTUTIONAL</h6>
 								</div>
 								<div class="pricing-description">
 									<h3>A corporate or non-corporate body or other organization shall be eligible to become an INSTITUTIONAL MEMBER of  the Society provided that:
@@ -238,7 +238,7 @@
                                         It agrees to abide by the Codes of Ethics of the Society.</h3>
 								</div>
 								<div class="txt-center">
-									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up today</a>
+									<a href="{{ route('register') }}" class="btn btn--extralg btn--round btn--fullwhite">sign up</a>
 								</div>
 							</div>
 
@@ -252,7 +252,7 @@
 
 							<div class="clients">
 								<div class="title-block">
-									<h6 class="title--small txt-center pgb-80">Our Institutional Members</h6>
+									<h6 class="title--small txt-center txt-nav">Our Institutional Members</h6>
 								</div>
 								<div class="row"><!--start logo row-->
 									<div class="col-md-1-5 col-sm-1-5">
@@ -293,10 +293,10 @@
 					<div class="row">
 						<div class="col-md-12 col-sm-12">
 							<div class="title-block ">
-								<h5 class="title--small txt-center txt-light">Get in Touch With Us.</h5>
-								<h6 class="subtitle txt-center txt-light">
+								<h5 class="title--small txt-center txt-account">Get in Touch With Us.</h5>
+								<h6 class="subtitle txt-center txt-account">
 									Whether you’re interested in working with us or for us, we’re always happy to chat.<br>
-									<br>For Inquiries:<span style="color:#c89d28;font-family: georgia;font-size: 22px; font-weight: 100;">&nbsp;+263 242 250489/90</span>. </h6>
+									<br>For Inquiries:<span class="txt-color" style="font-family: georgia;font-size: 22px; font-weight: 100;">&nbsp;+263 242 250489/90</span>. </h6>
 
 							</div>
 							<div class="txt-center pgt-10">

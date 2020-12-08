@@ -41,6 +41,11 @@ class ClientController extends Controller
         return view('member.graduate');
     }
 
+    public function admin()
+    {
+        return view('member.admin');
+    }
+
     public function professional()
     {
         return view('member.proffesional');
