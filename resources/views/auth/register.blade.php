@@ -11,12 +11,12 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <img class="img-fluid" src="img-assets/csz_logo.jpg" alt="logo" width="120" height="150" viewBox="0 0 35 35" fill="none">
+    <img class="img-fluid" src="img-assets/csz.png" alt="logo" width="120" height="150" viewBox="0 0 35 35" fill="none">
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Submit Your Email For Verification</p>
+      <h4 class="login-box-msg">Submit Your Email For Verification</h4>
 
       <form action="/member_verified_student" method="post">
         {{ csrf_field() }}
