@@ -48,6 +48,7 @@ h3 {
   line-height: 30px;
   font-weight: 400;
   font-style: normal;
+  color:whitesmoke;
 }
 
 h4 {
@@ -103,7 +104,7 @@ a:focus, a:hover {
 }
 
 .btn--round {
-  border-radius: 50px;
+  border-radius: 60px;
 }
 
 .btn--line {
@@ -150,7 +151,7 @@ a:focus, a:hover {
 }
 
 .btn--fullwhite {
-  background: #fff;
+  background: rgb(200,69,45);
 }
 
 .btn--fullwhite:hover {
@@ -166,21 +167,21 @@ a:focus, a:hover {
 }
 
 .btn--fullblack {
-  background: #090909;
-  color: #f9f9f9;
+  background: rgb(12,25,60);
+  color: rgb(200,69,45);
 }
 
 .btn--fullblack:hover, .btn--fullblack:focus {
-  color: #f9f9f9;
+  color: rgb(200,69,45);
 }
 
 .btn--fullblack:hover span, .btn--fullblack:focus span {
-  color: #f9f9f9;
+  color: rgb(200,69,45);
 }
 
 .btn--black {
   background: #222;
-  color: #f9f9f9;
+  color: rgb(200,69,45);
 }
 
 .btn--black:hover {
@@ -374,7 +375,7 @@ html {
     background: white;
     border: 0 none;
     border-radius: 0px;
-    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 2px rgb(12 ,25 ,60);
     padding: 20px 40px 30px 40px;
     box-sizing: border-box;
     width: 94%;
@@ -497,7 +498,7 @@ select.list-dt:focus {
 }
 
 #progressbar .active {
-    color: #000000
+    color: rgb(12 ,25 ,60)
 }
 
 #progressbar li {
@@ -1416,7 +1417,7 @@ select.list-dt:focus {
 .sh-component .btn {
   font-family: "Open Sans", sans-serif;
   padding: 15px 25px;
-  font-size: 13px;
+  font-size: 15px;
   transition: all 0.3s;
 }
 
@@ -1818,6 +1819,16 @@ select.list-dt:focus {
 .txt-light {
   color: rgb(200,69,45);
 }
+
+.txt-account {
+    color: whitesmoke;
+  }
+
+  .txt-nav {
+    color: rgb(12,25,60);
+  }
+
+
 
 .txt-dark {
   color: rgb(200,69,45);
@@ -3008,8 +3019,8 @@ td, th {
 }
 
 .mm-checkout-submit .btn:active {
-  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 3px 5px rgb(12, 25 ,69);
+  box-shadow: inset 0 3px 5px rgb(12,25,60);
   outline: 0;
 }
 
