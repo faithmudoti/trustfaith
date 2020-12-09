@@ -3606,9 +3606,9 @@ abbr[title] {
   outline: none;
   border-radius: 3px;
   -webkit-appearance: none;
-  background-image: url(../img-assets/select-arrow.svg);
+  background-image: url(../img-assets/search.svg);
   background-repeat: no-repeat;
-  background-size: 6px 12px;
+  background-size: 25px 40px;
   background-position: calc(100% - 10px) center;
   background-position-y: center;
   background-position-x: calc(100% - 10px);
