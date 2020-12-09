@@ -54,8 +54,7 @@
 																 </a>
 															 </div><!--/.mm__mainMenu-trigger-->
 															 <ul class="mm__mainMenu clearfix">
-																 <li><a class="mm__menu-link txt-nav" href=""><span>Home</span></a></li>
-																 <li><a class="mm__menu-link txt-nav" href="index.html#about"><span>About</span></a></li>
+																 <li><a class="mm__menu-link txt-nav" href=""><span>Check-Membership</span></a></li>
 																 <li><a class="mm__contact active" href="{{ route('login') }}"><span>LOGIN</span></a></li>
 
 															 </ul><!--/.mm__mainMenu-->
