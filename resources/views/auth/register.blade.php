@@ -30,7 +30,7 @@
         </div>
         <label>Choose Memebership Type </label>
             <div class="input-group mb-3">
-            <select type="text" name="membership" class="form-control" >
+            <select type="text" name="membership" class="form-control" required>
                 <option selected></option>
                 <option >PROFESSIONAL</option>
                 <option >ASSOCIATE</option>

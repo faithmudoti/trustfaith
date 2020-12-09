@@ -50,7 +50,7 @@
         <!-- Navbar -->
         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
             <div class="text-center">
-                <img class="img-fluid" src="img-assets/csz_logo.jpg" alt="logo" width="120" height="150" viewBox="0 0 35 35" fill="none">
+                <img class="img-fluid" src="img-assets/csz.png" alt="logo" width="120" height="150" viewBox="0 0 35 35" fill="none">
             </div>
             <!-- Right navbar links -->
             <ul class="navbar-nav ml-auto">
@@ -59,13 +59,13 @@
                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                     <span class="caret">LOG OUT</span>
                   </a>
-  
+
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                    document.getElementById('logout-form').submit();">
                           {{ __('Logout') }}
                       </a>
-  
+
                       <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                           @csrf
                       </form>

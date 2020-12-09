@@ -139,6 +139,11 @@ select.list-dt:focus {
   border-bottom: 2px solid rgb(12, 25, 60)
 }
 
+
+.card-cs {
+   color: rgb(12 ,25 ,60);
+}
+
 .card {
   z-index: 0;
   border: none;
@@ -166,10 +171,11 @@ select.list-dt:focus {
 
 #progressbar li {
   list-style-type: none;
-  font-size: 12px;
+  font-size: 13px;
   width: 25%;
   float: left;
-  position: relative
+  position: relative;
+  font-weight: bold;
 }
 
 #progressbar #account:before {

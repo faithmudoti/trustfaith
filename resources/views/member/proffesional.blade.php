@@ -95,7 +95,7 @@
                                       </div> <br><br>
                                       <div class="row justify-content-center">
                                           <div class="col-7 text-center">
-                                              <h5>You Successfully Signed Up For CSZ membersship Portal</h5>
+                                              <h5>You Successfully Signed Up For CSZ Membership</h5>
                                           </div>
                                       </div>
                                   </div>
