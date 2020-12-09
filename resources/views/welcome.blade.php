@@ -160,7 +160,7 @@
 									</div>
 									<div class="mm-iconbox__content-wrapper txt-black">
 											<h3 class="txt-nav">Our Vision	</h3>
-											<p class="mm-iconbox__desc txt-nav">To be the trusted industry body, anchored on professional knowledge driving the ICT ecosystem in Zimbabwe</p>
+											<h5 class="mm-iconbox__desc txt-nav">To be the trusted industry body, anchored on professional knowledge driving the ICT ecosystem in Zimbabwe</h5>
 									</div>
 								</div>
 							</div>
@@ -173,11 +173,16 @@
 									</div>
 									<div class="mm-iconbox__content-wrapper txt-black">
 											<h3 class="txt-nav">Our Mission</h3>
-											<p class="mm-iconbox__desc txt-nav">To champion the development of the ICT industry in Zimbabwe by establishing beneficial relationships and providing independent professional counsel for the benefit of members, government, industry and society at large.</p>
+											<h5 class="mm-iconbox__desc txt-nav">To champion the development of the ICT industry in Zimbabwe by establishing beneficial relationships and providing independent professional counsel for the benefit of members, government, industry and society at large.</h5>
 									</div>
 								</div>
 							</div>
-
+                        </div>
+						<div class="col-md-4 col-sm-4 ">
+                            <div class="form-group sorting-select">
+                                <input class="select-checkout select-control--sort" placeholder="Enter Full Name" >
+                                <h4 class="txt-nav">Enter Your Name To Check Your Membership</h4>
+                            </div>
 						</div>
 					</div><!--end row-->
 				</div>

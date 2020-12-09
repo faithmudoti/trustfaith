@@ -77,7 +77,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <div class="card card-dark">
+                <div class="card card-info">
                     <div class="card-header p-2">
 
                     </div><!-- /.card-header -->
@@ -86,7 +86,7 @@
         </div><!-- /.row -->
         <div class="row">
             <div class="col-md-12">
-                <div class="card card-dark card-outline">
+                <div class="card card-info card-outline">
                     <div class="card-body">
                         <div class="tab-content">
                             <div class="active tab-pane" id="general">
