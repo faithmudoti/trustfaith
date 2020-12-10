@@ -52,4 +52,9 @@ class ClientController extends Controller
         return view('member.proffesional');
     }
 
+    public function membership()
+    {
+        return view('member.membership');
+    }
+
 }

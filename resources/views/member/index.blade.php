@@ -41,16 +41,16 @@
       <!-- /.col -->
     </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid ">
     <div class="row">
         <div class="col-md-8">
-          <div class="card">
+          <div class="card position-static">
             <div class="card-header border-0">
               <div class="d-flex">
                 <h3 class="card-title">Membership Activity</h3>
               </div>
             </div>
-            <div class="card-body">
+            <div class="card-body ">
               <div class="d-flex">
                 <p class="d-flex flex-column">
                   <span>Involvement Over Time</span>

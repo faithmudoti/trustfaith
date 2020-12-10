@@ -27,7 +27,7 @@ Route::get('member_profile', 'ClientController@profile');
 Route::get('admin_dashboard', 'ClientController@admin');
 Route::get('member_verified_graduate', 'ClientController@graduate');
 Route::get('member_verified_professional', 'ClientController@professional');
-
+Route::get('membership', 'ClientController@membership');
 
 
 
