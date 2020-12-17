@@ -37,3 +37,4 @@ Route::post('/reports', 'MembersController@viewReport')->name('view reports');
 Route::get('/add', function(){
     return view('admin.memberForm');
 });
+
