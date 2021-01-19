@@ -1,49 +1,35 @@
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Brand Logo -->
-    <a href="/" class="brand-link">
-        <span class="brand-text font-weight-light">CSZ Membership</span>
-    </a>
+<div class="left-side-menu">
+    <div class="slimscroll-menu">
+        <!-- User box -->
+    
+        <!--- Sidemenu -->
+        <div id="sidebar-menu">
 
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <nav class="mt-2">
-            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                <li class="nav-item has-treeview">
-                    <a href="/member_dashboard" class="nav-link active">
-                        <i class="nav-icon fas fa-tachometer-alt">
-                        </i>
-                        <p>
-                            Dashboard
-                        </p>
+            <ul class="metismenu" id="side-menu">
+
+                <li class="menu-title">Navigation</li>
+
+                <li>
+                    <a href="/member_dashboard">
+                        <i class="mdi mdi-view-dashboard"></i>
+                        <span> Dashboard </span>
                     </a>
                 </li>
-                <li class="nav-item has-treeview">
-                    <a href="/member_profile" class="nav-link">
+                <li>
+                    <a href="/member_profile">
                         <i class="nav-icon fas fa-user-plus"></i>
-                        <p>
-                         My Profile
-                        </p>
+                        <span> My Profile </span>
                     </a>
                 </li>
-                <li class="nav-item has-treeview">
-                    <a href="/membership" class="nav-link">
+                <li>
+                    <a href="/membership">
                         <i class="nav-icon fas fa-users"></i>
-                        <p>
-                            Membership Details
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-archive"></i>
-                        <p>
-                            Subscritpion
-                        </p>
+                        <span> Membership Details </span>
                     </a>
                 </li>
             </ul>
-        </nav>
-        <!-- /.sidebar-menu -->
+        </div>
+        <!-- End Sidebar -->
+        <div class="clearfix"></div>
     </div>
-    <!-- /.sidebar -->
-</aside>
+</div>

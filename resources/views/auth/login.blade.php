@@ -1,210 +1,130 @@
-
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>CSZ | Student Register</title>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-      <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/fontawesome-free/css/all.min.css') }}">
-      <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
-      <link rel="stylesheet" href="{{ asset('AdminLTE/dist/css/adminlte.min.css') }}">
+    
+<!-- Mirrored from coderthemes.com/adminto/layouts/vertical/pages-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Dec 2020 09:18:08 GMT -->
+<head>
+        <meta charset="utf-8" />
+        <title>Email Veryfication | CSZ Membership</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="{{ ('Adminto/assets/images/favicon.ico') }}">
+
+        <!-- Bootstrap Css -->
+        <link href="{{ ('Adminto/assets/css/bootstrap.min.css') }}" id="bootstrap-stylesheet" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="{{ ('Adminto/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="{{ ('Adminto/assets/css/app.min.css') }}" id="app-stylesheet" rel="stylesheet" type="text/css" />
+
     </head>
-    <body class="hold-transition login-page">
-    <div class="login-box">
-      <div class="login-logo">
-        <img class="img-fluid" src="img-assets/csz_logo.jpg" alt="logo" width="120" height="150" viewBox="0 0 35 35" fill="none">
-      </div>
-      <!-- /.login-logo -->
-      <div class="card">
-        <div class="card-body login-card-body">
-          <p class="login-box-msg">Sign in to start your session</p>
-    
-          <form method="POST" action="{{ route('login') }}">
-            {{ csrf_field() }}
-            <div class="input-group mb-3">
-                <input id="email" type="email" name="email" class="form-control" placeholder="Email">
-                <div class="input-group-append">
-                  <div class="input-group-text">
-                    <span class="fas fa-envelope"></span>
-                  </div>
-                </div>
-                @if ($errors->has('email'))
-                <span class="invalid-feedback" role="alert">
-                <strong>{{ $errors->first('email') }}</strong>
-                 </span>
-                  @endif
-              </div>
-              <div class="input-group mb-3">
-                <input id="password" type="password" name="password" class="form-control" placeholder="Password">
-                <div class="input-group-append">
-                  <div class="input-group-text">
-                    <span class="fas fa-lock"></span>
-                  </div>
-                </div>   
-                @if ($errors->has('password'))
-                <span class="invalid-feedback" role="alert">
-                    <strong>{{ $errors->first('password') }}</strong>
-                </span>
-                @endif
-              </div>
-                 <div class="row">
-                <div class="col-8">
-                  <div class="icheck-primary">
-                    <input type="checkbox" id="remember">
-                    <label for="remember">
-                      Remember Me
-                    </label>
-                  </div>
-                </div>
-                <!-- /.col -->
-                <div class="col-4">
-                  <button type="submit" class="btn btn-primary btn-block">Log In </button>
-                </div>
-                <!-- /.col -->
-              </div>
-          </form>
-        </div>
-        <!-- /.login-card-body -->
-      </div>
-    </div>
-    
-    <script src="{{ ('AdminLTE/plugins/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{  asset('AdminLTE/dist/js/adminlte.min.js') }}"></script>
-    </body>
-    </html>
 
+    <body class="authentication-bg">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{{-- @extends('layouts.app')
-
-
-@section('content')
-<br><br>
-<br><br>
-<br><br>
-<br>
-<div class="page-wrapper--contact col-md-6" >
-    <div class="title-block">
-        <h3 class="title--popup txt-black">sign in your account to have access to different features</h3>
-    </div>
-    <form method="POST" action="{{ route('login') }}">
-        @csrf
-        <div class="form-group">
-            <label for="email" >Email</label>
-            <input id="email" type="text" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" placeholder="email@gmail.com" />
-
-            @if ($errors->has('email'))
-            <span class="invalid-feedback" role="alert">
-                <strong>{{ $errors->first('email') }}</strong>
-            </span>
-        @endif
-        </div>
-        <div class="form-group">
-            <label for="password" >Password</label>
-            <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
-
-            @if ($errors->has('password'))
-            <span class="invalid-feedback" role="alert">
-                <strong>{{ $errors->first('password') }}</strong>
-            </span>
-        @endif
-        </div>
-        <label for="remember" class="remember-popup">
-                            <input type="checkbox" id="remember" class="checkbox--fancy" name="checkbox" value="forever" />
-            Remember me</label>
-
-        <button class="btn btn--round btn--md btn--black" type="submit"> Log in</button>
-    </form>
-    <a href="forgot.html" class="auth_link">FORGOT YOUR PASSWORD?</a>
-</div> --}}
-
-{{--<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
-
-                <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}" aria-label="{{ __('Login') }}">
-                        @csrf
-
-                        <div class="form-group row">
-                            <label for="email" class="col-sm-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
-
-                                @if ($errors->has('email'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
+        <div class="account-pages mt-5 mb-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6 col-xl-5">
+                        <div class="text-center">
+                                <img src="img-assets/csz.png" alt="" width="175" height="120" class="logo-light mx-auto">
                         </div>
+                        <div class="card">
 
-                        <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
-
-                                @if ($errors->has('password'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <div class="col-md-6 offset-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
-                                    </label>
+                            <div class="card-body p-4">
+                                
+                                <div class="text-center mb-4">
+                                    <h4 class="text-uppercase mt-0">Sign In</h4>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Login') }}
-                                </button>
+                                <form method="POST" action="{{ route('login') }}">
+                                    {{ csrf_field() }}
+                                    <div class="form-group mb-3">
+                                        <label for="emailaddress">Email address</label>
+                                        <input class="form-control" name="email" type="email" id="emailaddress" required="" placeholder="Enter your email">
+                                        @if ($errors->has('email'))
+                                           <span class="invalid-feedback" role="alert">
+                                               <strong>{{ $errors->first('email') }}</strong>
+                                            </span>
+                                        @endif
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="password">Password</label>
+                                        <input class="form-control" name="password" type="password" required="" id="password" placeholder="Enter your password">
+                                        @if ($errors->has('password'))
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $errors->first('password') }}</strong>
+                                        </span>
+                                        @endif
+                                    </div>
 
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    {{ __('Forgot Your Password?') }}
-                                </a>
-                            </div>
+                                    <div class="form-group mb-3">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="checkbox-signin" checked>
+                                            <label class="custom-control-label" for="checkbox-signin">Remember me</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-0 text-center">
+                                        <button class="btn btn-dark btn-block" type="submit"> Log In </button>
+                                    </div>
+
+                                </form>
+
+                            </div> <!-- end card-body -->
                         </div>
-                    </form>
+                        <!-- end card -->
+
+                        <div class="row mt-3">
+                            <div class="col-12 text-center">
+                                <p> <a href="pages-recoverpw.html" class="text-muted ml-1"><i class="fa fa-lock mr-1"></i>Forgot your password?</a></p>
+                                <p class="text-muted">Don't have an account? <a href="pages-register.html" class="text-dark ml-1"><b>Sign Up</b></a></p>
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                    </div> <!-- end col -->
                 </div>
+                <!-- end row -->
             </div>
+            <!-- end container -->
         </div>
-    </div>
-</div> --}}
-{{-- @endsection --}}
+        <!-- end page -->
+    
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+        @include('sweetalert::alert')
+    </body>
+
+
+    <script src="{{ ('Adminto/assets/js/vendor.min.js') }}"></script>
+
+    <!-- App js -->
+    <script src="{{ ('Adminto/assets/js/app.min.js') }}"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

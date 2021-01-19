@@ -1,65 +1,105 @@
+<!DOCTYPE html>
 <html lang="en">
+    
+<!-- Mirrored from coderthemes.com/adminto/layouts/vertical/pages-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Dec 2020 09:18:08 GMT -->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CSZ | Student Register</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/fontawesome-free/css/all.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('AdminLTE/dist/css/adminlte.min.css') }}">
-</head>
-<body class="hold-transition login-page">
-<div class="login-box">
-  <div class="login-logo">
-    <img class="img-fluid" src="img-assets/csz.png" alt="logo" width="120" height="150" viewBox="0 0 35 35" fill="none">
-  </div>
-  <!-- /.login-logo -->
-  <div class="card">
-    <div class="card-body login-card-body">
-      <h4 class="login-box-msg">Submit Your Email For Verification</h4>
+        <meta charset="utf-8" />
+        <title>Email Veryfication | CSZ Membership</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="{{ ('Adminto/assets/images/favicon.ico') }}">
 
-      <form action="/member_verified_student" method="post">
-        {{ csrf_field() }}
-        <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="Email">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-envelope"></span>
+        <!-- Bootstrap Css -->
+        <link href="{{ ('Adminto/assets/css/bootstrap.min.css') }}" id="bootstrap-stylesheet" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="{{ ('Adminto/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="{{ ('Adminto/assets/css/app.min.css') }}" id="app-stylesheet" rel="stylesheet" type="text/css" />
+
+    </head>
+
+
+    <body class="authentication-bg">
+        <div class="account-pages mt-5 mb-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6 col-xl-5">
+                        <div class="text-center">
+                            <a href="index.html" class="logo">
+                                <img src="img-assets/csz.png" width="175" height="150" viewBox="0 0 35 35" fill="none">
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-4">                               
+                                <div class="text-center mb-4">
+                                    <h4 class="text-uppercase mt-0">Submit Your Email For Veryfication</h4>
+                                </div>
+                                <form action="/member_verify" method="POST" enctype="multipart/form-data">
+                                    {{ csrf_field() }}
+                                    <div class="form-group mb-3">
+                                        <label for="emailaddress">Email address</label>
+                                        <input class="form-control" type="email" id="emailaddress" name="email"  placeholder="Enter your email" required>
+                                    </div>
+
+                                    <div class="form-group md-3">
+                                        <label for="inputState" class="col-form-label">Membership Type</label>
+                                        <select id="inputState" name="membership"   class="form-control" required>
+                                            <option selected>Choose</option>
+                                            <option >PROFESSIONAL</option>
+                                            <option >ASSOCIATE</option>
+                                            <option >GRADUATE</option>
+                                            <option >STUDENT</option>
+                                            <option >AFFILATE</option>
+                                            <option >INSTISTUTIONAL</option>
+
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group mb-3">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="checkbox-signin" checked>
+                                            <label class="custom-control-label" for="checkbox-signin">Remember me</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-0 text-center">
+                                        <button class="btn btn-primary btn-block" type="submit"> Verify </button>
+                                    </div>
+
+                                </form>
+
+                            </div> <!-- end card-body -->
+                        </div>
+                        <!-- end card -->
+
+                        <div class="row mt-3">
+                            <div class="col-12 text-center">
+                                <p class="text-muted">Already  have an account? <a href="/login" class="text-dark ml-1"><b>Log In</b></a></p>
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                    </div> <!-- end col -->
+                </div>
+                <!-- end row -->
             </div>
-          </div>
+            <!-- end container -->
         </div>
-        <label>Choose Memebership Type </label>
-            <div class="input-group mb-3">
-            <select type="text" name="membership" class="form-control" required>
-                <option selected></option>
-                <option >PROFESSIONAL</option>
-                <option >ASSOCIATE</option>
-                <option >GRADUATE</option>
-                <option >STUDENT</option>
-                <option >AFFILATE</option>
-                <option >INSTISTUTIONAL</option>
-            </select>
-          </div>
-        <div class="row">
-          <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Verify</button>
-          </div>
-          <!-- /.col -->
-        </div>
-      </form>
+        <!-- end page -->
+    
 
-      <p class="mb-0">
-        <a href="/login" class="text-center">Already have an Account ?? Login In</a>
-      </p>
-    </div>
-    <!-- /.login-card-body -->
-  </div>
-</div>
+        <!-- Vendor js -->
+        <script src="{{ ('Adminto/assets/js/vendor.min.js') }}"></script>
 
-<script src="{{ ('AdminLTE/plugins/jquery/jquery.min.js') }}"></script>
-<script src="{{ asset('AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{  asset('AdminLTE/dist/js/adminlte.min.js') }}"></script>
-</body>
+        <!-- App js -->
+        <script src="{{ ('Adminto/assets/js/app.min.js') }}"></script>
+        
+    </body>
+
+<!-- Mirrored from coderthemes.com/adminto/layouts/vertical/pages-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Dec 2020 09:18:08 GMT -->
 </html>
 
 

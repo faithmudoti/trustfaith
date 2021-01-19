@@ -1,190 +1,218 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from coderthemes.com/adminto/layouts/vertical/form-wizard.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Dec 2020 09:17:28 GMT -->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CSZ | Student Register</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/fontawesome-free/css/all.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('AdminLTE/dist/css/adminlte.min.css') }}">
-</head>
-<body class="hold-transition login-page">
-<div class="login-box">
-  <div class="login-logo">
-    <img class="img-fluid" src="img-assets/csz.png" alt="logo" width="120" height="150" viewBox="0 0 35 35" fill="none">
-  </div>
-  <!-- /.login-logo -->
-  <div class="container-fluid" id="grad1">
-        <div class="col-md-13">
-            <div class="card">
-                <h2><strong>Student Membership</strong></h2>
-                <p>Fill all form field to go complete registration</p>
-                <div class="row">
-                    <div class="col-md-13">
-                        <form id="msform" action="" method="POST">
-                            {{ csrf_field() }}
-                            <!-- progressbar -->
-                            <ul id="progressbar">
-                                <li class="active" id="account"><strong>Account</strong></li>
-                                <li id="personal"><strong>Personal</strong></li>
-                                <li id="payment"><strong>Payment</strong></li>
-                                <li id="confirm"><strong>Finish</strong></li>
-                            </ul> <!-- fieldsets -->
-                            <fieldset>
-                                <div class="form-card">
-                                    <h2 class="fs-title">Account Information</h2>
-                                    <select type="text" name="chapter" class="form-control">
-                                        <option selected>Select Chapter Affiliation<option>
-                                        <option>Gweru Chapter<option>
-                                        <option>Harare Chapter<option>
-                                        <option>Bulawayo Chapter<option>
-                                    </select>
-                                    <br>
-                                    <select type="text" name="chapter" class="form-control">
-                                      <option selected>Select Interest Group<option>
-                                      <option>Gweru Chapter<option>
-                                      <option>Harare Chapter<option>
-                                      <option>Bulawayo Chapter<option>
-                                  </select>
-                                  <br>
-                                    <input type="email" name="email" placeholder="Email" />
-                                    <input type="text" name="uname" placeholder="UserName" />
-                                    <input type="text" name="fname" placeholder="First Name" />
-                                    <input type="text" name="fname" placeholder="Surname" />
-                                    <input type="text" name="pwd" placeholder="Mobile number" />
-                                    <input type="password" name="pwd" placeholder="Password" />
-                                    <input type="password" name="cpwd" placeholder="Confirm Password" />
+        <meta charset="utf-8" />
+        <title>CSZ Membership | Student Membership</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="{{ ('Aminto/assets/images/favicon.ico') }}">
+        <link href="{{ ('Adminto/assets/libs/bootstrap-datepicker/bootstrap-datepicker.css') }}" rel="stylesheet">
+        <link href="{{ ('Adminto/assets/libs/bootstrap-daterangepicker/daterangepicker.css') }}" rel="stylesheet">
+        <link href="{{ ('Adminto/assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.css') }}" rel="stylesheet" />
+        <!-- Bootstrap Css -->
+        <link href="{{ ('Adminto/assets/css/bootstrap.min.css') }}" id="bootstrap-stylesheet" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="{{ ('Adminto/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="{{ ('Adminto/assets/css/app.min.css') }}" id="app-stylesheet" rel="stylesheet" type="text/css" />
 
-                                </div>
-                                 <input type="button" name="next" class="next action-button" value="Next Step" />
-                            </fieldset>
-                            <fieldset>
-                                <div class="form-card">
-                                    <h2 class="fs-title">Personal Information</h2>
-                                    <input type="text" name="fname" placeholder="School Name" />
-                                    <label>Date Of Birth</label>
-                                    <input type="date" name="fname" placeholder="Date Of Birth" />
-                                    <br>
-                                    <textarea type="text" name="lname" placeholder="Physical Address" ></textarea>
-                                    <textarea type="text" name="phno" placeholder="Reason For Joining CSZ" ></textarea>
-                                    <br>
-                                    <label>Upload School ID</label>
-                                    <input type="file" name="phno_2" placeholder="School ID" />
-                                    <br>
-                                    <label>Upload National ID</label>
-                                    <input type="file" name="phno_2" placeholder="National ID" />
-                                </div> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
-                                <input type="button" name="next" class="next action-button" value="Next Step" />
-                            </fieldset>
-                            <fieldset>
-                                <div class="form-card">
-                                    <h2 class="fs-title">Payment Information</h2>
-                                    <div class="radio-group">
-                                        <div class='radio' data-value="credit"><img src="images/paynow.svg" width="200px" height="100px"></div>
-                                    </div>
-                                </div>
-                                <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
-                                <input type="button" name="make_payment" class="next action-button" value="Confirm" />
-                            </fieldset>
-                            <fieldset>
-                                <div class="form-card">
-                                    <h2 class="fs-title text-center">Success !</h2> <br><br>
-                                    <div class="row justify-content-center">
-                                        <div class="col-3"> <img src="https://img.icons8.com/color/96/000000/ok--v2.png" class="fit-image"> </div>
-                                    </div> <br><br>
-                                    <div class="row justify-content-center">
-                                        <div class="col-7 text-center">
-                                            <h5>You Successfully Signed Up For CSZ Membership</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="action-button" ><a href="/login" value="" >Login</a></button>
-                            </fieldset>
-                        </form>
+    </head>
+
+<body class="authentication-bg">
+    <div class="account-pages mt-5 mb-5">
+        <div class="container">
+            <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-xl-6">
+                    <div class="text-center">
+                        <a href="index.html" class="logo">
+                            <img src="img-assets/csz.png" width="175" height="120" viewBox="0 0 35 35" fill="none">
+                        </a>
                     </div>
-                </div>
-            </div>
+                      <div class="card">
+                          <div class="card-body">
+                              <h4 class="header-title mb-3">Student Membership Registration</h4>
+                              <form name="student" action="{{ route('initialise') }}" method="POST" enctype="multipart/form-data">
+                             {{ csrf_field() }} 
+                                  <div id="progressbarwizard">
+                                      <ul class="nav nav-pills  nav-justified form-wizard-header mb-1">
+                                          <li class="nav-item">
+                                              <a href="#account-2" data-toggle="tab" class="nav-link rounded-0 pt-2 pb-2">
+                                                  <i class="mdi mdi-account-circle mr-1"></i>
+                                                  <span class="d-none d-sm-inline">Account</span>
+                                              </a>
+                                          </li>
+                                          <li class="nav-item">
+                                              <a href="#profile-tab-2" data-toggle="tab" class="nav-link rounded-0 pt-2 pb-2">
+                                                  <i class="mdi mdi-face-profile mr-1"></i>
+                                                  <span class="d-none d-sm-inline">Profile</span>
+                                              </a>
+                                          </li>
+                                          <li class="nav-item">
+                                              <a href="#finish-2" data-toggle="tab" class="nav-link rounded-0 pt-2 pb-2">
+                                                  <i class="mdi mdi-checkbox-marked-circle-outline mr-1"></i>
+                                                  <span class="d-none d-sm-inline">Payment</span>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  
+                                      <div class="tab-content border-0 mb-0">                
+                                          <div id="bar" class="progress mb-3 mt-0" style="height: 7px;">
+                                              <div class="bar progress-bar progress-bar-striped progress-bar-animated bg-danger"></div>
+                                          </div>
+                                  
+                                          <div class="tab-pane" id="account-2">
+                                              <div class="row">
+                                                  <div class="col-12">
+                                                    <div class="form-group row mb-3">
+                                                        <label class="col-md-3 col-form-label" for="userName1">Chapter Affiliation</label>
+                                                        <div class="col-md-9">
+                                                            <select type="text" class="form-control"  name="chapter" required>
+                                                                <option>Gweru</option>
+                                                                <option>Harare</option>
+                                                                <option>Kwekwe</option>
+                                                                <option>Mutare</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                      <div class="form-group row mb-3">
+                                                          <label class="col-md-3 col-form-label" for="userName1">Interest Groups</label>
+                                                          <div class="col-md-9">
+                                                              <input type="text" class="form-control"  name="interest_group" data-role="tagsinput" required>
+                                                          </div>
+                                                      </div>
+                                                      <div class="form-group row mb-3">
+                                                        <label class="col-md-3 col-form-label"> First Name</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" name="name" class="form-control" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row mb-3">
+                                                        <label class="col-md-3 col-form-label">Surname</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text"  name="surname" class="form-control" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row mb-3">
+                                                        <label class="col-md-3 col-form-label">Date Of Bith</label>
+                                                        <div class="col-md-9">
+                                                            <input type="date" class="form-control" name="date_of_birth"  placeholder="mm/dd/yyyy" required>
+                                                        </div>
+                                                    </div>
+                                                      <div class="form-group row mb-3">
+                                                          <label class="col-md-3 col-form-label" for="password1"> Password</label>
+                                                          <div class="col-md-9">
+                                                              <input type="password" id="password" name="password" class="form-control"  required>
+                                                          </div>
+                                                      </div>      
+                                                  </div> <!-- end col -->
+                                              </div> <!-- end row -->
+                                          </div>
+              
+                                          <div class="tab-pane" id="profile-tab-2">
+                                              <div class="row">
+                                                  <div class="col-12">
+                                                      <div class="form-group row mb-3">
+                                                          <label class="col-md-3 col-form-label" for="name1"> Mobile Number</label>
+                                                          <div class="col-md-9">
+                                                              <input type="number"  name="phonenumber" class="form-control" required>
+                                                          </div>
+                                                      </div>
+                                                      <div class="form-group row mb-3">
+                                                        <label class="col-md-3 col-form-label">Current School</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" id="school" name="current_school" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row mb-3">
+                                                        <label class="col-md-3 col-form-label">School ID</label>
+                                                        <div class="col-md-9">
+                                                            <input type="file" name="school_id" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row mb-3">
+                                                        <label class="col-md-3 col-form-label">National ID</label>
+                                                        <div class="col-md-9">
+                                                            <input type="file" name="national_id" class="form-control" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row mb-3">
+                                                        <label class="col-md-3 col-form-label" for="surname1">Reason For Joining CSZ</label>
+                                                        <div class="col-md-9">
+                                                            <textarea type="text" id="notes" rows="3" cols="3" name="notes" class="form-control" required></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row mb-3">
+                                                        <label class="col-md-3 col-form-label" for="surname1">Physical Address</label>
+                                                        <div class="col-md-9">
+                                                            <textarea type="text" id="address" rows="3" cols="3" name="address" class="form-control" required></textarea>
+                                                        </div>
+                                                    </div>
+                                                  </div> <!-- end col -->
+                                              </div> <!-- end row -->
+                                          </div>
+              
+                                          <div class="tab-pane" id="finish-2">
+                                              <div class="row">
+                                                  <div class="col-12">
+                                                      <div class="text-center">
+                                                        <img src="images/paynow.svg" width="200px" height="100px">
+                                                          <div class="form-group row mb-3">
+                                                            <label class="col-md-3 col-form-label">Enter Your Ecocash Number</label>
+                                                            <div class="col-md-9">
+                                                                <input type="number" name="ecocash_number" class="form-control" placeholder="07777777" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row mb-3">
+                                                            <label class="col-md-3 col-form-label">Membership Amount</label>
+                                                            <div class="col-md-9">
+                                                                <input type="number" name="amount" class="form-control" value="2" readonly>
+                                                            </div>
+                                                        </div>
+                                                      </div>
+                                                  </div> <!-- end col -->
+                                              </div> <!-- end row -->
+                                          </div>
+              
+                                          <ul class="list-inline mb-0 wizard">
+                                              <li class="previous list-inline-item">
+                                                  <a href="javascript: void(0);" class="btn btn-dark">Previous</a>
+                                              </li>
+                                              <li class="next list-inline-item float-right">
+                                                  <a href="javascript: void(0);" class="btn btn-dark">Next</a>
+                                              </li>
+                                          </ul>
+                                      </div>
+                                         <!-- tab-content -->
+                                  </div> <!-- end #progressbarwizard-->
+                                  <div class="col-md-12 text-center">
+                                  <button class="btn btn-dark" name="student" type="submit">Register</button>
+                                  </div>
+                              </form>
+              
+                          </div> <!-- end card-body -->
+                      </div> <!-- end card-->
+                  </div> <!-- end col -->
+                </div> 
+              </div>
         </div>
     </div>
-</div>
 
-<script src="{{ ('AdminLTE/plugins/jquery/jquery.min.js') }}"></script>
-<script src="{{ asset('AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{  asset('AdminLTE/dist/js/adminlte.min.js') }}"></script>
+<script src="{{ ('Adminto/assets/js/vendor.min.js') }}"></script>
+<script src="{{ ('Adminto/assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.js') }}"></script>
+<!-- Plugins js-->
+<script src="{{ ('Adminto/assets/libs/twitter-bootstrap-wizard/jquery.bootstrap.wizard.min.js') }}"></script>
+<script src="{{ ('Adminto/assets/libs/bootstrap-daterangepicker/daterangepicker.js') }}"></script>
+<!-- Init js-->
+<script src="{{ ('Adminto/assets/js/pages/form-wizard.init.js') }}"></script>
+<script src="{{ ('Adminto/assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.js') }}"></script>
 
-
-<script>
-    $(document).ready(function(){
-
-var current_fs, next_fs, previous_fs; //fieldsets
-var opacity;
-
-$(".next").click(function(){
-
-current_fs = $(this).parent();
-next_fs = $(this).parent().next();
-
-//Add Class Active
-$("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
-
-//show the next fieldset
-next_fs.show();
-//hide the current fieldset with style
-current_fs.animate({opacity: 0}, {
-step: function(now) {
-// for making fielset appear animation
-opacity = 1 - now;
-
-current_fs.css({
-'display': 'none',
-'position': 'relative'
-});
-next_fs.css({'opacity': opacity});
-},
-duration: 600
-});
-});
-
-$(".previous").click(function(){
-
-current_fs = $(this).parent();
-previous_fs = $(this).parent().prev();
-
-//Remove class active
-$("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
-
-//show the previous fieldset
-previous_fs.show();
-
-//hide the current fieldset with style
-current_fs.animate({opacity: 0}, {
-step: function(now) {
-// for making fielset appear animation
-opacity = 1 - now;
-
-current_fs.css({
-'display': 'none',
-'position': 'relative'
-});
-previous_fs.css({'opacity': opacity});
-},
-duration: 600
-});
-});
-
-$('.radio-group .radio').click(function(){
-$(this).parent().find('.radio').removeClass('selected');
-$(this).addClass('selected');
-});
-
-$(".submit").click(function(){
-return false;
-})
-
-});
-
-</script>
-
-
+<!-- App js -->
+<script src="{{ ('Adminto/assets/js/app.min.js') }}"></script>
 </body>
 </html>

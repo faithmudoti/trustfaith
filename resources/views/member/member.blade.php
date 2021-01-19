@@ -17,7 +17,7 @@
                             <div class="col-md-12">
                                 <div class="profile-view">
                                     <div class="text-right text-red-700 pr-4">
-                                        <button type="button" class="btn btn-primary text-2xl"
+                                        <button type="button" class="btn btn-dark   text-2xl"
                                             data-target="#edit_member" data-toggle="modal" aria-expanded="false">
                                             <span aria-hidden="true"> <i class="fas fa-edit"></i></span>
                                         </button>
@@ -31,19 +31,19 @@
                                                     <div class="col-md-12">
                                                         <div class="row">
                                                             <div class="col-md-6">
-                                                                <h6 class="text-muted">Gender:</h6>
-                                                                <h6 class="text-muted">Date of Birth:</h6>
-                                                                <h6 class="text-muted">National ID:</h6>
-                                                                <h6 class="text-muted">Nationality:</h6>
-                                                                <h6 class="text-muted">Religion:</h6>
+                                                                <h4 class="text-muted">Gender:</h4>
+                                                                <h4 class="text-muted">Date of Birth:</h4>
+                                                                <h4 class="text-muted">National ID:</h4>
+                                                                <h4 class="text-muted">Nationality:</h4>
+                                                                <h4 class="text-muted">Religion:</h4>
                                                             </div>
                                                             <div class="col-md-6">
-                                                                <h6 class="text-muted">
-                                                                     Male </h6>
-                                                                <h6 class="text-muted"> 19 9999 29</h6>
-                                                                <h6 class="text-muted"> 67 6767676 E34</h6>
-                                                                <h6 class="text-muted">Zimbabwean </h6>
-                                                                <h6 class="text-muted"> Christianity</h6>
+                                                                <h4 class="text-muted">
+                                                                     Male </h4>
+                                                                <h4 class="text-muted"> 19 9999 29</h4>
+                                                                <h4 class="text-muted"> 67 6767676 E34</h4>
+                                                                <h4 class="text-muted">Zimbabwean </h4>
+                                                                <h4 class="text-muted"> Christianity</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -54,14 +54,14 @@
                                                 <hr>
                                                 <div class="row">
                                                     <div class="col-md-6">
-                                                        <h6 class="text-muted">Phone:</h6>
-                                                        <h6 class="text-muted">Email:</h6>
-                                                        <h6 class="text-muted">Address:</h6>
+                                                        <h4 class="text-muted">Phone:</h4>
+                                                        <h4 class="text-muted">Email:</h4>
+                                                        <h4 class="text-muted">Address:</h4>
                                                     </div>
                                                     <div class="col-md-6">
-                                                        <h6 class="text-muted">0777777777</h6>
-                                                        <h6 class="text-muted"> tmusikiri43@gmail.com</h6>
-                                                        <h6 class="text-muted"> 1963 bhohnn  Mutare</h6>
+                                                        <h4 class="text-muted">0777777777</h4>
+                                                        <h4 class="text-muted"> tmusikiri43@gmail.com</h4>
+                                                        <h4 class="text-muted"> 1963 bhohnn  Mutare</h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -86,7 +86,7 @@
         </div><!-- /.row -->
         <div class="row">
             <div class="col-md-12">
-                <div class="card card-info card-outline">
+                <div class="card card-inverse card-outline">
                     <div class="card-body">
                         <div class="tab-content">
                             <div class="active tab-pane" id="general">
@@ -94,7 +94,7 @@
                                     <div class="col-md-6">
                                         <div class="card-footer mb-0">
                                             <div class="text-right text-red-700 pr-4">
-                                                <button type="button" class="btn btn-primary text-2xl"
+                                                <button type="button" class="btn btn-dark   text-2xl"
                                                     data-target="#edit_member_nok" data-toggle="modal"
                                                     aria-expanded="false">
                                                     <span aria-hidden="true"> <i class="fas fa-edit"></i></span>
@@ -105,19 +105,19 @@
                                                 <div class="col-md-12">
                                                     <div class="row">
                                                         <div class="col-md-6">
-                                                            <h6 class="text-muted">Current School</h6>
-                                                            <h6 class="text-muted">Current Year</h6>
-                                                            <h6 class="text-muted">Interests</h6>
-                                                            <h6 class="text-muted">Degree Name</h6>
+                                                            <h4 class="text-muted">Current School</h4>
+                                                            <h4 class="text-muted">Current Year</h4>
+                                                            <h4 class="text-muted">Interests</h4>
+                                                            <h4 class="text-muted">Degree Name</h4>
                                                         </div>
 
                                                             <div class="col-md-6">
-                                                                <h6 class="text-muted"> Harare Institute Of Technology
-                                                                      </h6>
-                                                                <h6 class="text-muted"> Part 4 Final Year</h6>
-                                                                <h6 class="text-muted"> Coding Bloging Playing Soccer </h6>
-                                                                <h6 class="text-muted"> Open Source Projects</h6>
-                                                                <h6 class="text-muted"> B TECH Computer Science </h6>
+                                                                <h4 class="text-muted"> Harare Institute Of Technology
+                                                                      </h4>
+                                                                <h4 class="text-muted"> Part 4 Final Year</h4>
+                                                                <h4 class="text-muted"> Coding Bloging Playing Soccer </h4>
+                                                                <h4 class="text-muted"> Open Source Projects</h4>
+                                                                <h4 class="text-muted"> B TECH Computer Science </h4>
                                                             </div>
                                                     </div>
                                                 </div>
@@ -127,7 +127,7 @@
                                     <div class="col-md-6">
                                         <div class="card-footer mb-0">
                                             <div class="text-right text-red-700 pr-4">
-                                                <button type="button" class="btn btn-primary text-2xl"
+                                                <button type="button" class="btn btn-dark   text-2xl"
                                                     data-target="#edit_dependants" data-toggle="modal"
                                                     aria-expanded="false">
                                                     <span aria-hidden="true"> <i class="fas fa-edit"></i></span>
@@ -166,7 +166,7 @@
                                     <div class="col-md-6">
                                         <div class="card-footer mb-0">
                                             <div class="text-right text-red-700 pr-4">
-                                                <button type="button" class="btn btn-primary text-2xl"
+                                                <button type="button" class="btn btn-dark   text-2xl"
                                                     data-target="#edit_member_documents" data-toggle="modal"
                                                     aria-expanded="false">
                                                     <span aria-hidden="true"> <i class="fas fa-edit"></i></span>
@@ -293,7 +293,7 @@
                         </div>
                         <div class="card-footer">
                             <center>
-                                <button type="submit" class="btn btn-primary">Save Details</button>
+                                <button type="submit" class="btn btn-dark">Save Details</button>
                             </center>
                         </div>
                     </form>
@@ -354,7 +354,7 @@
 
                         <div class="card-footer">
                             <center>
-                                <button type="submit" class="btn btn-primary">Save Details</button>
+                                <button type="submit" class="btn btn-dark">Save Details</button>
                             </center>
                         </div>
                     </form>
@@ -386,7 +386,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <input class="btn btn-success" type="button" value="Add Row"
+                                        <input class="btn btn-dark" type="button" value="Add Row"
                                             onclick="addRow('dataTable')" />
                                     </div>
                                 </div>
@@ -426,7 +426,7 @@
                         <!-- /.card-body -->
                         <div class="card-footer">
                             <center>
-                                <button type="submit" class="btn btn-primary">Save Details</button>
+                                <button type="submit" class="btn btn-dark">Save Details</button>
                             </center>
                         </div>
                     </form>
@@ -479,7 +479,7 @@
 
                         <div class="card-footer">
                             <center>
-                                <button type="submit" class="btn btn-primary">Save Details</button>
+                                <button type="submit" class="btn btn-dark">Save Details</button>
                             </center>
                         </div>
                     </form>
@@ -512,7 +512,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <input class="btn btn-success" type="button" value="Add Row"
+                                        <input class="btn btn-dark" type="button" value="Add Row"
                                             onclick="addRow1('dataTable1')" />
                                     </div>
                                 </div>
@@ -554,7 +554,7 @@
                         <!-- /.card-body -->
                         <div class="card-footer">
                             <center>
-                                <button type="submit" class="btn btn-primary">Save Details</button>
+                                <button type="submit" class="btn btn-dark">Save Details</button>
                             </center>
                         </div>
                     </form>
@@ -606,7 +606,7 @@
                         </div>
                         <div class="card-footer">
                             <center>
-                                <button type="submit" class="btn btn-primary">Save Details</button>
+                                <button type="submit" class="btn btn-dark">Save Details</button>
                             </center>
                         </div>
                     </form>
@@ -656,7 +656,7 @@
                         </div>
                         <div class="card-footer">
                             <center>
-                                <button type="submit" class="btn btn-primary">Save Details</button>
+                                <button type="submit" class="btn btn-dark">Save Details</button>
                             </center>
                         </div>
                     </form>
@@ -699,7 +699,7 @@
                         </div>
                         <div class="card-footer">
                             <center>
-                                <button type="submit" class="btn btn-primary">Save Details</button>
+                                <button type="submit" class="btn btn-dark">Save Details</button>
                             </center>
                         </div>
                     </form>
@@ -742,7 +742,7 @@
                         </div>
                         <div class="card-footer">
                             <center>
-                                <button type="submit" class="btn btn-primary">Save Details</button>
+                                <button type="submit" class="btn btn-dark">Save Details</button>
                             </center>
                         </div>
                     </form>
