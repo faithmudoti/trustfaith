@@ -16,8 +16,8 @@ class CreateCertificatesTable extends Migration
         Schema::create('certificates', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->string('type');
-            $table->integer('owner');
+            $table->string('type')->default("pdf");
+            $table->string('user_id')->constrained('users');
             $table->timestamps();
         });
     }
